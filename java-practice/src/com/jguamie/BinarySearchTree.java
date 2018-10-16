@@ -10,25 +10,27 @@ public class BinarySearchTree {
     root = null;
   }
 
+  // Stanford Intro Problem
   public boolean lookup(int data) {
     return (lookup(root, data));
   }
 
+  private boolean lookup(Node node, int data) {
+    if (node == null) {
+      return false;
+    }
+    if (data == node.data) {
+      return true;
+    } else if (data < node.data) {
+      return (lookup(node.left, data));
+    } else {
+      return (lookup(node.right, data));
+    }
+  }
+
+  // Stanford Intro Problem
   public void insert(int data) {
     root = insert(root, data);
-  }
-
-  // Given a non-empty binary search tree
-  public int minValue() {
-    return (minValueRecursive(root));
-  }
-
-  public void printTree() {
-    printTree(root);
-  }
-
-  public void doubleTree() {
-    doubleTree(root);
   }
 
   private Node insert(Node node, int data) {
@@ -44,17 +46,10 @@ public class BinarySearchTree {
     return (node);
   }
 
-  private boolean lookup(Node node, int data) {
-    if (node == null) {
-      return false;
-    }
-    if (data == node.data) {
-      return true;
-    } else if (data < node.data) {
-      return (lookup(node.left, data));
-    } else {
-      return (lookup(node.right, data));
-    }
+  // Stanford Problem #4
+  // Given a non-empty binary search tree
+  public int minValue() {
+    return (minValueRecursive(root));
   }
 
   // Given a non-empty binary search tree
@@ -75,6 +70,11 @@ public class BinarySearchTree {
     return (current.data);
   }
 
+  // Stanford Problem #5
+  public void printTree() {
+    printTree(root);
+  }
+
   private void printTree(Node node) {
     if (node == null) {
       return;
@@ -82,6 +82,11 @@ public class BinarySearchTree {
     printTree(node.left);
     System.out.print(node.data + " ");
     printTree(node.right);
+  }
+
+  // Stanford Problem #10
+  public void doubleTree() {
+    doubleTree(root);
   }
 
   private void doubleTree(Node node) {

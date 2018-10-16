@@ -8,36 +8,9 @@ public class BinaryTree {
     root = null;
   }
 
+  // Stanford Problem #2
   public int size() {
     return(size(root));
-  }
-
-  public int maxDepth() {
-    return(maxDepth(root));
-  }
-
-  public void printPostorder() {
-    printPostorder(root);
-  }
-
-  // TODO: This is incorrect? What if the sum is zero halfway down a path?
-  public boolean hasPathSumStanford(int sum) {
-    return(hasPathSumStanford(root, sum));
-  }
-
-  // Given a non-empty binary search tree
-  public boolean hasPathSumJohnLee(int sum) {
-    return(hasPathSumJohnLee(root, sum));
-  }
-
-  // Given a non-empty binary search tree
-  public void printPaths() {
-    String currentPath = "";
-    printPaths(root, currentPath);
-  }
-
-  public void mirror() {
-    mirror(root);
   }
 
   private int size(Node node) {
@@ -48,12 +21,22 @@ public class BinaryTree {
     }
   }
 
+  // Stanford Problem #3
+  public int maxDepth() {
+    return(maxDepth(root));
+  }
+
   int maxDepth(Node node) {
     if (node == null) {
       return 0;
     } else {
       return(1 + Math.max(maxDepth(node.left), maxDepth(node.right)));
     }
+  }
+
+  // Stanford Problem #6
+  public void printPostorder() {
+    printPostorder(root);
   }
 
   private void printPostorder(Node node) {
@@ -63,6 +46,11 @@ public class BinaryTree {
     printPostorder(node.left);
     printPostorder(node.right);
     System.out.print(node.data + " ");
+  }
+
+  // Stanford Problem #7
+  public boolean hasPath(int sum) {
+    return(hasPathSumJohnLee(root, sum));
   }
 
   // TODO: This is incorrect? What if the sum is zero halfway down a path?
@@ -75,33 +63,40 @@ public class BinaryTree {
     }
   }
 
-  // Given a non-empty binary search tree
   private boolean hasPathSumJohnLee(Node node, int sum) {
+    if (node == null) {
+      return(false);
+    }
     int subSum = sum - node.data;
     if (node.left == null && node.right == null) {
-      return(subSum == 0);
-    } else if (node.left == null) {
-      return(hasPathSumJohnLee(node.right, subSum));
-    } else if (node.right == null) {
-      return(hasPathSumJohnLee(node.left, subSum));
+      return(node.data == subSum);
     } else {
       return(hasPathSumJohnLee(node.left, subSum) || hasPathSumJohnLee(node.right, subSum));
     }
   }
 
-  // Given a non-empty binary search tree
+  // Stanford Problem #8
+  public void printPaths() {
+    String currentPath = "";
+    printPaths(root, currentPath);
+  }
+
   private void printPaths(Node node, String currentPath) {
-    String newPath = currentPath + node.data + " ";
-    if (node.left == null && node.right == null) {
-      System.out.println(newPath);
-    } else if (node.left == null) {
-      printPaths(node.right, currentPath);
-    } else if (node.right == null) {
-      printPaths(node.left, currentPath);
-    } else {
-      printPaths(node.left, currentPath);
-      printPaths(node.right, currentPath);
+    if (node == null) {
+      return;
     }
+    String updatedPath = currentPath + " " + node.data;
+    if (node.left == null && node.right == null) {
+      System.out.println(updatedPath);
+    } else {
+      printPaths(node.left, updatedPath);
+      printPaths(node.right, updatedPath);
+    }
+  }
+
+  // Stanford Problem #9
+  public void mirror() {
+    mirror(root);
   }
 
   private void mirror(Node node) {
