@@ -12,7 +12,7 @@ public class BinarySearchTree {
 
   // Stanford Intro Problem
   public boolean lookup(int data) {
-    return (lookup(root, data));
+    return lookup(root, data);
   }
 
   private boolean lookup(Node node, int data) {
@@ -22,9 +22,9 @@ public class BinarySearchTree {
     if (data == node.data) {
       return true;
     } else if (data < node.data) {
-      return (lookup(node.left, data));
+      return lookup(node.left, data);
     } else {
-      return (lookup(node.right, data));
+      return lookup(node.right, data);
     }
   }
 
@@ -43,21 +43,21 @@ public class BinarySearchTree {
         node.right = insert(node.right, data);
       }
     }
-    return (node);
+    return node;
   }
 
   // Stanford Problem #4
   // Given a non-empty binary search tree
   public int minValue() {
-    return (minValueRecursive(root));
+    return minValueRecursive(root);
   }
 
   // Given a non-empty binary search tree
   private int minValueRecursive(Node node) {
     if (node.left == null) {
-      return (node.data);
+      return node.data;
     } else {
-      return (minValueRecursive(node.left));
+      return minValueRecursive(node.left);
     }
   }
 
@@ -67,7 +67,7 @@ public class BinarySearchTree {
     while (current.left != null) {
       current = current.left;
     }
-    return (current.data);
+    return current.data;
   }
 
   // Stanford Problem #5
