@@ -2,6 +2,8 @@ package com.jguamie;
 
 import java.util.ArrayList;
 
+// Problems from:
+// http://cslibrary.stanford.edu/110/BinaryTrees.html
 public class BinaryTree {
   // Root node pointer. Will be null for an empty tree.
   private Node root;
@@ -132,23 +134,27 @@ public class BinaryTree {
   }
 
   // Stanford Problem #13
-  // This approach doesn't require minValue() or maxValue()
-  // TODO: Not complete. Need to handle null nodes and when to pass at true.
+  // This approach doesn't require minValue() or maxValue().
+  // Also, minValue() and maxValue() would not work in a non-BST.
   public boolean isBST() {
     ArrayList<Integer> integerArray = new ArrayList<>();
-    boolean isBST = true;
-    isBST = addDataToArray(root, integerArray);
-    return isBST;
+    return addDataToArray(root, integerArray);
   }
 
   private boolean addDataToArray(Node node, ArrayList<Integer> integerArray) {
-    addDataToArray(node, integerArray);
-    integerArray.add(node.data);
-    if (integerArray.size() > 1 && integerArray.get(size()-1) > integerArray.get(size()-2)) {
-      return false;
+    if (node == null) {
+      return true;
     }
-    addDataToArray(node.right, integerArray);
-    return true;
+    boolean isBST = true;
+    // In-order traversal
+    isBST = isBST && addDataToArray(node, integerArray);
+    integerArray.add(node.data);
+    // Ensure each new data is greater than the last inserted data
+    if (integerArray.size() > 1 && integerArray.get(size()-1) > integerArray.get(size()-2)) {
+      isBST = false;
+    }
+    isBST = isBST && addDataToArray(node.right, integerArray);
+    return isBST;
   }
 
   // Stanford Problem #14
@@ -157,6 +163,13 @@ public class BinaryTree {
   }
 
   private boolean isBST2(Node node, int min, int max) {
-    return false;
+    if (node == null) {
+      return true;
+    } else {
+      if (node.data <= min || node.data > max) {
+        return false;
+      }
+      return isBST2(node.left, min, node.data) && isBST2(node.right, node.data, max);
+    }
   }
 }
