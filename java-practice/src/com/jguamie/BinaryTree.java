@@ -1,6 +1,8 @@
 package com.jguamie;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 // Problems from:
 // http://cslibrary.stanford.edu/110/BinaryTrees.html
@@ -170,6 +172,25 @@ public class BinaryTree {
         return false;
       }
       return isBST2(node.left, min, node.data) && isBST2(node.right, node.data, max);
+    }
+  }
+
+  // Level Order Traversal
+  public void levelOrder(Node root) {
+    if (root == null) {
+      return;
+    }
+    Queue<Node> nodeQueue = new LinkedList<>();
+    nodeQueue.add(root);
+    while (!nodeQueue.isEmpty()) {
+      Node node = nodeQueue.poll();
+      System.out.print(node.data + " ");
+      if (node.left != null) {
+        nodeQueue.add(node.left);
+      }
+      if (node.right != null) {
+        nodeQueue.add(node.right);
+      }
     }
   }
 }

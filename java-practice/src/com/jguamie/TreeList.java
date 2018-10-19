@@ -8,12 +8,10 @@ package com.jguamie;
 public class TreeList {
   private Node root;
   private Node head;
-  private Node iterator;
 
   public void TreeList() {
     root = null;
     head = null;
-    iterator = null;
   }
 
   public void treeToList() {
@@ -25,18 +23,18 @@ public class TreeList {
       return;
     }
     treeToList(node.left);
-    Node previousRightNode = node.right;
+    Node previousRight = node.right;
     if (head == null) {
       head = node;
       head.left = node;
       head.right = node;
-      iterator = head;
     } else {
-      iterator.right = node;
-      node.left = iterator;
+      Node previousLast = head.left;
+      head.left = node;
+      previousLast.right = node;
+      node.left = previousLast;
       node.right = head;
-      iterator = node;
     }
-    treeToList(previousRightNode);
+    treeToList(previousRight);
   }
 }
