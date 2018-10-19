@@ -6,7 +6,7 @@
 1. BT vs BST
 	* Done. Notes in java.md
 1. Pre-order, In-order, Post-order, Level Order Traversals
-	* Level order remaining
+	* Done.
 1. Java Collections
 1. Java equals() and hashCode()
 1. [Stanford Library - Linked List](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
