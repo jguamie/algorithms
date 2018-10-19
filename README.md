@@ -9,3 +9,4 @@
 	* Level order remaining
 1. Java Collections
 1. Java equals() and hashCode()
+1. [Stanford Library - Linked List](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
