@@ -10,4 +10,4 @@
 1. Java Collections
 1. Java equals() and hashCode()
 1. [Stanford Library - Linked List](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
-	* In Progress. Completed up to problem 8
+	* In Progress. Completed up to problem 10

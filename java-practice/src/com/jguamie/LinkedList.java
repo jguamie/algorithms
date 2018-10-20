@@ -114,6 +114,37 @@ public class LinkedList {
   }
 
   // Stanford Problem #9
+  // Return head node to back linked list only.
   public Node frontBackSplit() {
+    if (head == null || head.next == null) {
+      return null;
+    }
+    Node slowIter = head;
+    Node fastIter = head;
+    while (fastIter.next != null) {
+      fastIter = fastIter.next;
+      if (fastIter.next != null) {
+        fastIter = fastIter.next;
+        slowIter = slowIter.next;
+      }
+    }
+    Node backHead = slowIter.next;
+    slowIter.next = null;
+    return backHead;
+  }
+
+  // Stanford Problem #10
+  public void removeDuplicates() {
+    if (head == null) {
+      return;
+    }
+    Node iter = head;
+    while (iter.next != null) {
+      if (iter.next.data == iter.data) {
+        iter.next = iter.next.next;
+      } else {
+        iter = iter.next;
+      }
+    }
   }
 }
