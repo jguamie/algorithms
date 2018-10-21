@@ -13,3 +13,4 @@
 	* In Progress. Completed up to problem 10
 ## Week 2 (2018 Oct 20)
 1. [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 94-96, 98-106
+![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-tree-problems.png)
