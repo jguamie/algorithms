@@ -147,4 +147,101 @@ public class LinkedList {
       }
     }
   }
+
+  // Stanford Problem #11
+  public Node moveNode(Node sourceRef) {
+    if (head == null || sourceRef == null) {
+      return;
+    }
+    Node previousDestHead = head;
+    Node newSourceHead = sourceRef.next;
+    head = sourceRef;
+    head.next = previousDestHead;
+    return newSourceHead;
+  }
+
+  // Stanford Problem #13
+  public void shuffleMerge(Node a, Node b) {
+    if (a == null) {
+      head = b;
+      return;
+    }
+    head = a;
+    Node sourceIter = head;
+    Node aIter = a.next;
+    Node bIter = b;
+    while (true) {
+      if (bIter != null) {
+        sourceIter.next = bIter;
+        bIter = bIter.next;
+        sourceIter = sourceIter.next;
+      } else {
+        return;
+      }
+      if (aIter != null) {
+        sourceIter.next = aIter;
+        aIter = aIter.next;
+        sourceIter = sourceIter.next;
+      } else {
+        return;
+      }
+    }
+  }
+
+  // Stanford Problem #14
+  public void sortedMerge(Node a, Node b) {
+    if (a == null) {
+      head = b;
+      return;
+    }
+    if (b == null) {
+      head = a;
+      return;
+    }
+    Node aIter = a;
+    Node bIter = b;
+    if (a.data <= b.data) {
+      head = a;
+      aIter = aIter.next;
+    } else {
+      head = b;
+      bIter = bIter.next;
+    }
+    Node sourceIter = head;
+
+    while(true) {
+      if (aIter == null) {
+        sourceIter.next = bIter;
+        return;
+      }
+      if (bIter == null) {
+        sourceIter.next = aIter;
+        return;
+      }
+      if (aIter.data <= bIter.data) {
+        sourceIter.next = aIter;
+        aIter = aIter.next;
+      } else {
+        sourceIter.next = bIter;
+        bIter = bIter.next;
+      }
+      sourceIter = sourceIter.next;
+    }
+  }
+
+  // Stanford Problem #17
+  public void reverse() {
+    if (head == null || head.next == null) {
+      return;
+    }
+    Node iter = head;
+    Node iterNext = head.next;
+    while (iterNext != null) {
+      Node iterNextNext = iterNext.next;
+      iterNext.next = iter;
+      iter = iterNext;
+      iterNext = iterNextNext;
+    }
+    head = iter;
+  }
 }
