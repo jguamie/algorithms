@@ -40,10 +40,6 @@ Retrieves, but does not remove, the head of this queue.
 ```
 E element()
 ```
-Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions.
-```
-boolean offer(E e)
-```
 Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
 ```
 E peek()
