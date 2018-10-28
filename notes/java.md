@@ -150,6 +150,6 @@ Queue<E> queue = new LinkedList<>();
 ```
 Action | Method
 ------------ | ------------
-Insert | `add(e)`
-Remove | `remove()`
-Examine | `element()`
+Insert | `offer(e)` or `add(e)`
+Remove | `poll()`
+Examine | `peek()`
