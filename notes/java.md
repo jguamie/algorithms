@@ -15,6 +15,10 @@ Inserts the specified element at the specified position in this list. Shifts the
 ```
 void add(int index, E element)
 ```
+Removes all of the elements from this list.
+```
+void clear()
+```
 Returns true if this list contains the specified element.
 ```
 boolean contains(Object o)
