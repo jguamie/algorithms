@@ -54,6 +54,13 @@ HashSet is implemented using a hash table. The elements are not ordered. The add
 LinkedHashSet is implemented as a hash table with a linked list running through it. The elements are sorted by order of insertion. The basic methods have constant time complexity O(1).
  * `LinkedHashSet<E> linkedHashSet = new LinkedHashSet<>();` Initializes a new linked hash set.
  * Same methods as HashSet.
+#### Iterator Example
+```
+Iterator<E> iterator = hashSet.iterator();
+  while( iterator.hasNext() ) { // Returns true if the iteration has more elements.
+	System.out.println( iterator.next() ); // Returns the next element in the iteration.
+}
+```
 ### TreeSet
 TreeSet is implemented using a red-black tree. The elements are sorted. The add, remove, and contains methods have a time complexity of O(log (n)).
  * `Set<E> treeSet = new TreeSet<>();` Initializes a new tree set.
