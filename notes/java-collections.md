@@ -56,7 +56,7 @@ LinkedHashSet is implemented as a hash table with a linked list running through 
  * Same methods as HashSet.
 #### Iterator Example
 ```
-Iterator<E> iterator = hashSet.iterator();
+Iterator<E> iterator = linkedHashSet.iterator();
   while( iterator.hasNext() ) { // Returns true if the iteration has more elements.
 	System.out.println( iterator.next() ); // Returns the next element in the iteration.
 }
