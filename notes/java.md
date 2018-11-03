@@ -3,66 +3,21 @@
 1. Java Abstract versus Interface Classes
 ## Java Collections
 ### ArrayList
-Initializes a new array list.
-```
-ArrayList<E> arrayList = new ArrayList<>();
-```
-Appends the specified element to the end of this list.
-```
-boolean add(E e)
-```
-Inserts the specified element at the specified position in this list. Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).
-```
-void add(int index, E element)
-```
-Removes all of the elements from this list.
-```
-void clear()
-```
-Returns true if this list contains the specified element.
-```
-boolean contains(Object o)
-```
-Performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception.
-```
-void forEach(Consumer<? super E> action)
-```
-Returns the element at the specified position in this list.
-```
-E get(int index)
-```
-Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
-```
-int indexOf(Object o)
-```
-Returns true if this list contains no elements.
-```
-boolean isEmpty()
-```
-Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
-```
-int lastIndexOf(Object o)
-```
-Removes the element at the specified position in this list.
-```
-E remove(int index)
-```
-Removes the first occurrence of the specified element from this list, if it is present.
-```
-boolean remove(Object o)
-```
-Replaces the element at the specified position in this list with the specified element.
-```
-E set(int index, E element)
-```
-Returns the number of elements in this list.
-```
-int size()
-```
-Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
-```
-List<E> subList(int fromIndex, int toIndex)
-```
+  * `ArrayList<E> arrayList = new ArrayList<>();` Initializes a new array list.
+  * `boolean add(E e)` Appends the specified element to the end of this list.
+  * `void add(int index, E element)` Inserts the specified element at the specified position in this list. Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).
+  * `void clear()` Removes all of the elements from this list.
+  * `boolean contains(Object o)` Returns true if this list contains the specified element.
+  * `void forEach(Consumer<? super E> action)` Performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception.
+  * `E get(int index)` Returns the element at the specified position in this list.
+  * `int indexOf(Object o)` Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
+  * `boolean isEmpty()` Returns true if this list contains no elements.
+  * `int lastIndexOf(Object o)` Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
+  * `E remove(int index)` Removes the element at the specified position in this list.
+  * `boolean remove(Object o)` Removes the first occurrence of the specified element from this list, if it is present.
+  * `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
+  * `int size()` Returns the number of elements in this list.
+  * `List<E> subList(int fromIndex, int toIndex)` Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
 ### HashMap
 Initializes a new hash map.
 ```
@@ -125,29 +80,22 @@ Returns a Collection view of the values contained in this map.
 Collection<V> values()
 ```
 ### Stack
-Initializes a new stack.
-```
-Stack<E> stack = new Stack<>();
-```
+  * `Stack<E> stack = new Stack<>();` Initializes a new stack.
+
 Action | Method
 ------------ | ------------
 Insert | `push(e)`
 Remove | `pop()`
 Examine | `peek()`
 
-Tests if this stack is empty.
-```
-boolean empty()
-```
-Returns the 1-based position where an object is on this stack.
-```
-int search(Object o)
-```
+  * `boolean empty()` Tests if this stack is empty.
+  * `int search(Object o)` Returns the 1-based position where an object is on this stack.
+### TreeSet
+  * `Set<String> treeSet = new TreeSet<>();` Initializes a new tree set.
+  * 
 ### Queue
-Initializes a new queue.
-```
-Queue<E> queue = new LinkedList<>();
-```
+  * `Queue<E> queue = new LinkedList<>();` Initializes a new queue.
+
 Action | Method
 ------------ | ------------
 Insert | `offer(e)` or `add(e)`
