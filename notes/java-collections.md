@@ -1,5 +1,6 @@
 # Java Collections
-## ArrayList
+![java-collection-hierarchy](https://github.com/jguamie/practice-problems/blob/master/notes/java-collection-hierarchy.jpeg)
+### ArrayList
  * `ArrayList<E> arrayList = new ArrayList<>();` Initializes a new array list.
  * `boolean add(E e)` Appends the specified element to the end of this list.
  * `void add(int index, E element)` Inserts the specified element at the specified position in this list. Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).
@@ -15,6 +16,26 @@
  * `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
  * `int size()` Returns the number of elements in this list.
  * `List<E> subList(int fromIndex, int toIndex)` Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
+## LinkedHashSet
+LinkedHashSet is implemented as a hash table with a linked list running through it, so it provides the order of insertion. The basic methods have constant time complexity O(1).
+ * `LinkedHashSet<E> linkedHashSet = new LinkedHashSet<>();` Initializes a new linked hash set.
+ * Same methods as HashSet.
+## LinkedList
+ * `Queue<E> queue = new LinkedList<>();` Initializes a new linked list.
+
+Action | Method
+------------ | ------------
+Insert | `offer(e)` or `add(e)`
+Remove | `poll()`
+Examine | `peek()`
+## HashSet
+HashSet is implemented using a hash table. Elements are not ordered. The add, remove, and contains methods have constant time complexity O(1).
+ * `Set<E> hashSet = new HashSet<>();` Initializes a new hash set.
+ * `boolean add(E e)` Adds the specified element to this set if it is not already present.
+ * `boolean contains(Object o)` Returns true if this set contains the specified element.
+ * `boolean isEmpty()` Returns true if this set contains no elements.
+ * `boolean remove(Object o)` Removes the specified element from this set if it is present.
+ * `int size()` Returns the number of elements in this set (its cardinality).
 ## HashMap
  * `HashMap<K,V> hashMap = new HashMap<>();` Initializes a new hash map.
  * `boolean containsKey(Object key)` Returns true if this map contains a mapping for the specified key.
@@ -43,7 +64,8 @@ Examine | `peek()`
  * `boolean empty()` Tests if this stack is empty.
  * `int search(Object o)` Returns the 1-based position where an object is on this stack.
 ## TreeSet
- * `Set<String> treeSet = new TreeSet<>();` Initializes a new tree set.
+TreeSet is implemented using a red-black tree. The elements are sorted. The add, remove, and contains methods have a time complexity of O(log (n)).
+ * `Set<E> treeSet = new TreeSet<>();` Initializes a new tree set.
  * `boolean add(E e)` Adds the specified element to this set if it is not already present.
  * `boolean contains(Object o)` Returns true if this set contains the specified element.
  * `E first()` Returns the first (lowest) element currently in this set.
@@ -53,11 +75,4 @@ Examine | `peek()`
  * `E pollLast()` Retrieves and removes the last (highest) element, or returns null if this set is empty.
  * `boolean remove(Object o)` Removes the specified element from this set if it is present.
  * `int size()` Returns the number of elements in this set.
-## Queue
- * `Queue<E> queue = new LinkedList<>();` Initializes a new queue.
-
-Action | Method
------------- | ------------
-Insert | `offer(e)` or `add(e)`
-Remove | `poll()`
-Examine | `peek()`
+ * `SortedSet<E> subSet(E fromElement, E toElement)` Returns a view of the portion of this set whose elements range from fromElement, inclusive, to toElement, exclusive.
