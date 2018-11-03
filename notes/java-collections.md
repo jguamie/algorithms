@@ -28,14 +28,6 @@ Action | Method
 Insert | `offer(e)` or `add(e)`
 Remove | `poll()`
 Examine | `peek()`
-## HashSet
-HashSet is implemented using a hash table. Elements are not ordered. The add, remove, and contains methods have constant time complexity O(1).
- * `Set<E> hashSet = new HashSet<>();` Initializes a new hash set.
- * `boolean add(E e)` Adds the specified element to this set if it is not already present.
- * `boolean contains(Object o)` Returns true if this set contains the specified element.
- * `boolean isEmpty()` Returns true if this set contains no elements.
- * `boolean remove(Object o)` Removes the specified element from this set if it is present.
- * `int size()` Returns the number of elements in this set (its cardinality).
 ## HashMap
  * `HashMap<K,V> hashMap = new HashMap<>();` Initializes a new hash map.
  * `boolean containsKey(Object key)` Returns true if this map contains a mapping for the specified key.
@@ -52,6 +44,14 @@ HashSet is implemented using a hash table. Elements are not ordered. The add, re
  * `void replaceAll(BiFunction<? super K,? super V,? extends V> function)` Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.
  * `int size()` Returns the number of key-value mappings in this map.
  * `Collection<V> values()` Returns a Collection view of the values contained in this map.
+## HashSet
+HashSet is implemented using a hash table. Elements are not ordered. The add, remove, and contains methods have constant time complexity O(1).
+ * `Set<E> hashSet = new HashSet<>();` Initializes a new hash set.
+ * `boolean add(E e)` Adds the specified element to this set if it is not already present.
+ * `boolean contains(Object o)` Returns true if this set contains the specified element.
+ * `boolean isEmpty()` Returns true if this set contains no elements.
+ * `boolean remove(Object o)` Removes the specified element from this set if it is present.
+ * `int size()` Returns the number of elements in this set (its cardinality).
 ## Stack
  * `Stack<E> stack = new Stack<>();` Initializes a new stack.
 
