@@ -1,8 +1,5 @@
-# Java Notes
-1. Java is Pass by Value and Not Pass by Reference
-1. Java Abstract versus Interface Classes
-## Java Collections
-### ArrayList
+# Java Collections
+## ArrayList
   * `ArrayList<E> arrayList = new ArrayList<>();` Initializes a new array list.
   * `boolean add(E e)` Appends the specified element to the end of this list.
   * `void add(int index, E element)` Inserts the specified element at the specified position in this list. Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).
@@ -18,7 +15,7 @@
   * `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
   * `int size()` Returns the number of elements in this list.
   * `List<E> subList(int fromIndex, int toIndex)` Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
-### HashMap
+## HashMap
  * `HashMap<K,V> hashMap = new HashMap<>();` Initializes a new hash map.
  * `boolean containsKey(Object key)` Returns true if this map contains a mapping for the specified key.
  * `boolean containsValue(Object value)` Returns true if this map maps one or more keys to the specified value.
@@ -34,7 +31,7 @@
  * `void replaceAll(BiFunction<? super K,? super V,? extends V> function)` Replaces each entry's value with the result of invoking the given function on that entry until all entries have been processed or the function throws an exception.
  * `int size()` Returns the number of key-value mappings in this map.
  * `Collection<V> values()` Returns a Collection view of the values contained in this map.
-### Stack
+## Stack
   * `Stack<E> stack = new Stack<>();` Initializes a new stack.
 
 Action | Method
@@ -45,14 +42,14 @@ Examine | `peek()`
 
   * `boolean empty()` Tests if this stack is empty.
   * `int search(Object o)` Returns the 1-based position where an object is on this stack.
-### TreeSet
+## TreeSet
   * `Set<String> treeSet = new TreeSet<>();` Initializes a new tree set.
   * `boolean add(E e)` Adds the specified element to this set if it is not already present.
   * `boolean contains(Object o)` Returns true if this set contains the specified element.
   * `E first()` Returns the first (lowest) element currently in this set.
   * `boolean isEmpty()` Returns true if this set contains no elements.
   * `E last()` Returns the last (highest) element currently in this set.
-### Queue
+## Queue
   * `Queue<E> queue = new LinkedList<>();` Initializes a new queue.
 
 Action | Method
