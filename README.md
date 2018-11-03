@@ -16,14 +16,14 @@
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-tree-1.png)
 1. Java Collections
 	* Notes in java.md
-1. Java equals() and hashCode()
 ## Week 3 (2018 Oct 27)
 1. [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 101-106
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-tree-2.png)
 1. [LeetCode Google Problems](https://leetcode.com/company/google/) 1-3, 5
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-google-1.png)
 1. Java Collections
-	* TreeSet, LinkedSet, HashSet
+	* TreeSet, LinkedHashSet, HashSet
 	* Notes in java.md
 1. Review Sorts: Quick, Merge, Insert, Bubble
+## Week 4 (2018 Nov 3)
 1. Java equals() and hashCode()
