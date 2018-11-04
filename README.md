@@ -30,3 +30,5 @@
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 1. Review Sorts: Quick, Merge, Insert, Bubble
 1. Java equals() and hashCode()
+# Resources
+[The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/) Chapters 1-6 only
