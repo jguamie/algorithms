@@ -13,20 +13,20 @@
 	* Some of these problems are C/C++-specific and not really meant for Java.
 	* Problems 13, 14, 17, and 18 provide interesting iterative vs recursive comparisons that are worth reviewing.
 1. [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 94-96, 98-100
-![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-tree-1.png)
+![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree-1.png)
 1. Java Collections: ArrayList, HashMap, LinkedList, Stack
 	* Notes in java-collections.md
 ## Week 3 (2018 Oct 27)
 1. [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 101-106
-![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-tree-2.png)
+![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree-2.png)
 1. [LeetCode Google Problems](https://leetcode.com/company/google/) 1-3, 5
-![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-google-1.png)
+![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-1.png)
 1. Java Collections: TreeSet, LinkedHashSet, HashSet
 	* Notes in java-collections.md
 ## Week 4 (2018 Nov 3)
 1. [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
-![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-array-1.png)
+![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array-1.png)
 1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
-![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-google-2.png)
+![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 1. Review Sorts: Quick, Merge, Insert, Bubble
 1. Java equals() and hashCode()
