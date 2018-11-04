@@ -27,3 +27,8 @@
 1. Review Sorts: Quick, Merge, Insert, Bubble
 ## Week 4 (2018 Nov 3)
 1. Java equals() and hashCode()
+1. [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
+![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-array-1.png)
+1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
+![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/notes/leetcode-google-2.png)
+
