@@ -32,4 +32,5 @@
 1. Java equals() and hashCode()
 # Resources
 [The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/) Chapters 1-6 only
+
 [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
