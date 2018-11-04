@@ -1,5 +1,5 @@
 # Java Collections
-![java-collection-hierarchy](https://github.com/jguamie/practice-problems/blob/master/notes/java-collection-hierarchy.jpeg)
+![java-collection-hierarchy](https://github.com/jguamie/practice-problems/blob/master/images/java-collection-hierarchy.jpeg)
 ## HashMap
  * `HashMap<K,V> hashMap = new HashMap<>();` Initializes a new hash map.
  * `boolean containsKey(Object key)` Returns true if this map contains a mapping for the specified key.
