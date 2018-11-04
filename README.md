@@ -31,6 +31,5 @@
 1. Review Sorts: Quick, Merge, Insert, Bubble
 1. Java equals() and hashCode()
 # Resources
-[The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/) Chapters 1-6 only
-
-[Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
+1. [The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/) Chapters 1-6 only
+1. [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
