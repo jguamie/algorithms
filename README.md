@@ -28,6 +28,11 @@
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array-1.png)
 1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
+# Week 5 (2018 Nov 10)
+1. [LeetCode Binary Search Problems](https://leetcode.com/tag/binary-search/) 29, 33-35, 50, 69
+![leetcode-binary-search-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-binary-search-1.png)
+1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 54, 56, 66
+![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-3.png)
 1. Review Sorts: Quick, Merge, Insert, Bubble
 1. Java equals() and hashCode()
 # Resources
