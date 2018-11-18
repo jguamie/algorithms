@@ -13,24 +13,24 @@
 	* Some of these problems are C/C++-specific and not really meant for Java.
 	* Problems 13, 14, 17, and 18 provide interesting iterative vs recursive comparisons that are worth reviewing.
 1. [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 94-96, 98-100
-![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree-1.png)
+![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree.png)
 1. Java Collections: ArrayList, HashMap, LinkedList, Stack
 	* Notes in java-collections.md
 ## Week 3 (2018 Oct 27)
 1. [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 101-106
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree-2.png)
 1. [LeetCode Google Problems](https://leetcode.com/company/google/) 1-3, 5
-![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-1.png)
+![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google.png)
 1. Java Collections: TreeSet, LinkedHashSet, HashSet
 	* Notes in java-collections.md
 ## Week 4 (2018 Nov 3)
 1. [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
-![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array-1.png)
+![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array.png)
 1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 ## Week 5 (2018 Nov 10)
 1. [LeetCode Binary Search Problems](https://leetcode.com/tag/binary-search/) 29, 33-35, 50, 69
-![leetcode-binary-search-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-binary-search-1.png)
+![leetcode-binary-search-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-binary-search.png)
 1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 54, 56, 66
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-3.png)
 1. [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/), Chapter 1
