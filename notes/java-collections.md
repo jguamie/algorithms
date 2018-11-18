@@ -81,7 +81,7 @@ Examine | `peek()`
 ### LinkedList
  * `Queue<E> linkedList = new LinkedList<>();` Initializes a new linked list.
 ### PriorityQueue
-The head of this queue is the least element with respect to the specified ordering.
+A priority queue is essentially a min heap. The head of this queue is the least element with respect to the specified ordering.
  * `Queue<E> priorityQueue = new PriorityQueue<>();` Initializes a new priority queue.
- * `PriorityQueue<String> priorityQueue = new PriorityQueue<String>(5, (a,b) -> a.length() - b.length());` Initialize with initial capacity and ordering comparator.
- 
+ * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, Collections.reverseOrder());` Initialize as a max heap (5 is the initial capacity).
+ * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, (a, b) -> b - a);` Instead, use a lambda expression to reverse ordering.
