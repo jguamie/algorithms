@@ -81,6 +81,7 @@ Examine | `peek()`
 ### LinkedList
  * `Queue<E> linkedList = new LinkedList<>();` Initializes a new linked list.
 ### PriorityQueue
+The head of this queue is the least element with respect to the specified ordering.
  * `Queue<E> priorityQueue = new PriorityQueue<>();` Initializes a new priority queue.
  * `PriorityQueue<String> priorityQueue = new PriorityQueue<String>(5, (a,b) -> a.length() - b.length());` Initialize with initial capacity and ordering comparator.
  
