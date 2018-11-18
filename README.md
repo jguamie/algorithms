@@ -35,7 +35,7 @@
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-3.png)
 1. [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/), Chapter 1
 ## Week 6 (2018 Nov 17)
-1. [LeetCode Heap Problems](https://leetcode.com/tag/binary-search/) 23, 215, 218, 239, 253, 264, 295
+1. [LeetCode Heap Problems](https://leetcode.com/tag/heap/) 23, 215, 218, 239, 253, 264, 295
 ![leetcode-heap-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-heap.png)
 1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 155, 162, 173
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-4.png)
