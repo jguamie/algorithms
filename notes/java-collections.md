@@ -28,14 +28,6 @@
  * `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
  * `int size()` Returns the number of elements in this list.
  * `List<E> subList(int fromIndex, int toIndex)` Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
-### LinkedList
- * `Queue<E> queue = new LinkedList<>();` Initializes a new linked list.
-
-Action | Method
------------- | ------------
-Insert | `offer(e)` or `add(e)`
-Remove | `poll()`
-Examine | `peek()`
 ## Sets
 ### HashSet
 HashSet is implemented using a hash table. The elements are not ordered. The add, remove, and contains methods have constant time complexity O(1).
@@ -80,3 +72,15 @@ Examine | `peek()`
 
  * `boolean empty()` Tests if this stack is empty.
  * `int search(Object o)` Returns the 1-based position where an object is on this stack.
+## Queue
+Action | Method
+------------ | ------------
+Insert | `offer(e)` or `add(e)`
+Remove | `poll()`
+Examine | `peek()`
+### LinkedList
+ * `Queue<E> linkedList = new LinkedList<>();` Initializes a new linked list.
+### PriorityQueue
+ * `Queue<E> priorityQueue = new PriorityQueue<>();` Initializes a new priority queue.
+ * `PriorityQueue<String> priorityQueue = new PriorityQueue<String>(5, (a,b) -> a.length() - b.length());` Initialize with initial capacity and ordering comparator.
+ 
