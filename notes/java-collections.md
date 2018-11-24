@@ -83,5 +83,5 @@ Examine | `peek()`
 ### PriorityQueue
 A priority queue is essentially a min heap. The head of this queue is the least element with respect to the specified ordering.
  * `Queue<E> priorityQueue = new PriorityQueue<>();` Initializes a new priority queue.
- * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, Collections.reverseOrder());` Initialize as a max heap (5 is the initial capacity).
+ * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, Collections.reverseOrder());` Initialize as a max heap. 5 is the initial capacity. Capacity is not the same as size. The size at initialization will still be 0.
  * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, (a, b) -> b - a);` Instead, use a lambda expression to reverse ordering.
