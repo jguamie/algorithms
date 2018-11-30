@@ -43,6 +43,8 @@
 ## Week 7 (2018 Nov 24)
 1. [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
+### Graphs
+1. [Week 1: Undirected and Directed Graphs - Princeton Algorithms](https://www.coursera.org/learn/algorithms-part2)
 1. [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/), Chapter 5
 # TODO
 1. Review Sorts: Quick, Merge, Insert, Bubble
