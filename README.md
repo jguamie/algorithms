@@ -47,6 +47,7 @@
 ### Graphs
 * [Week 1: Undirected and Directed Graphs - Princeton Algorithms](https://www.coursera.org/learn/algorithms-part2)
 * [Chapter 5: Graph Traversal - Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
+* Depth-First Search, Breadth-First Search, Undirected Cycle, Directed Cycle, Topological Sort
 # TODO
 * Review Sorts: Quick, Merge, Insert, Bubble
 * Java: equals(), hashCode(), Comparator
