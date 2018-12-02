@@ -48,6 +48,14 @@
 * [Week 1: Undirected and Directed Graphs - Princeton Algorithms](https://www.coursera.org/learn/algorithms-part2)
 * [Chapter 5: Graph Traversal - Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
 * Depth-First Search, Breadth-First Search, Undirected Cycle, Directed Cycle, Topological Sort
+## Week 8 (2018 Dec 1)
+* [LeetCode Graph Problems](https://leetcode.com/tag/heap/) 133, 207, 210, 261, 269, 310, 323
+![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
+* [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 228, 231, 240
+![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-6.png)
+## Week 9 (2018 Dec 15)
+* [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 279, 280, 289, 297, 312, 316, 326, 336, 341, 345 
+![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-7.png)
 # TODO
 * Review Sorts: Quick, Merge, Insert, Bubble
 * Java: equals(), hashCode(), Comparator
