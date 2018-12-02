@@ -1,3 +1,6 @@
+# Prerequisites
+* [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
+* [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
 # Assignments
 ## Week 1 (2018 Oct 13)
 ### Binary Trees & Linked Lists
@@ -45,8 +48,7 @@
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
 ### Graphs
-* [Week 1: Undirected and Directed Graphs - Princeton Algorithms](https://www.coursera.org/learn/algorithms-part2)
-* [Chapter 5: Graph Traversal - Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
+* [Undirected and Directed Graphs - Princeton Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
 * Depth-First Search, Breadth-First Search, Undirected Cycle, Directed Cycle, Topological Sort
 ## Week 8 (2018 Dec 1)
 * [LeetCode Graph Problems](https://leetcode.com/tag/heap/) 133, 207, 210, 261, 269, 310, 323
@@ -60,6 +62,6 @@
 * Review Sorts: Quick, Merge, Insert, Bubble
 * Java: equals(), hashCode(), Comparator
 # Resources
-* [The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/) Chapters 1-6 only
+* [The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
 * [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
