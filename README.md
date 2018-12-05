@@ -51,7 +51,7 @@
 * [Undirected and Directed Graphs - Princeton Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
 * Depth-First Search, Breadth-First Search, Undirected Cycle, Directed Cycle, Topological Sort
 ## Week 8 (2018 Dec 1)
-* [LeetCode Graph Problems](https://leetcode.com/tag/heap/) 133, 207, 210, 261, 269, 310, 323
+* [LeetCode Graph Problems](https://leetcode.com/tag/graph/) 133, 207, 210, 261, 269, 310, 323
 ![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 228, 231, 240
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-6.png)
