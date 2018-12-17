@@ -15,13 +15,13 @@
 * Java Collections: ArrayList, HashMap, LinkedList, Stack
 	* Notes in java-collections.md
 ## Week 3
+* [Chapter 3: Data Structures - Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
 * [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 101-106
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree-2.png)
 * [LeetCode Google Problems](https://leetcode.com/company/google/) 1-3, 5
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google.png)
 * Java Collections: TreeSet, LinkedHashSet, HashSet
 	* Notes in java-collections.md
-* [Chapter 3: Data Structures - Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
 ## Week 4
 * [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array.png)
