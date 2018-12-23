@@ -7,6 +7,7 @@
 * [Stanford Library - Binary Tree](http://cslibrary.stanford.edu/110/BinaryTrees.html)
 * **Binary Trees**. BT vs BST, Pre-order, In-order, Post-order, Level Order Traversals
 	* Notes in binary-tree.md
+* **Sorting**. Review Quick, Merge, Insertion Sorts
 ## Week 2
 * [Chapter 2: Algorithm Analysis - Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
 * [Stanford Library - Linked List](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
@@ -48,10 +49,8 @@
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 228, 231, 240
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-6.png)
 ## Week 9
-* [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 279, 280, 289, 297, 312, 316, 326, 336, 341, 345 
-![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-7.png)
-# TODO
-* Review Sorts: Quick, Merge, Insert, Bubble
-* Java: equals(), hashCode(), Comparator
+* Review with [LeetCode Easy Collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
+## Week 10
+* Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
 # Resources
 * [The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
