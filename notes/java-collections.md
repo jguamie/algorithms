@@ -8,6 +8,7 @@
  * `V get(Object key)` Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.
  * `boolean isEmpty()` Returns true if this map contains no key-value mappings.
  * `V put(K key, V value)` Associates the specified value with the specified key in this map.
+ * `V putIfAbsent(K key, V value)` If the specified key is mapped to null, associates it with the given value and returns null. Otherwise, returns the existing value.
  * `V remove(Object key)` Removes the mapping for the specified key from this map if present.
  * `int size()` Returns the number of key-value mappings in this map.
  * `Collection<V> values()` Returns a Collection view of the values contained in this map.
