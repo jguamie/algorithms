@@ -4,7 +4,6 @@
  * `HashMap<K,V> hashMap = new HashMap<>();` Initializes a new hash map.
  * `boolean containsKey(Object key)` Returns true if this map contains a mapping for the specified key.
  * `boolean containsValue(Object value)` Returns true if this map maps one or more keys to the specified value.
- * `void forEach(BiConsumer<? super K,? super V> action)` Performs the given action for each entry in this map until all entries have been processed or the action throws an exception.
  * `V get(Object key)` Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.
  * `boolean isEmpty()` Returns true if this map contains no key-value mappings.
  * `V put(K key, V value)` Associates the specified value with the specified key in this map.
@@ -19,7 +18,6 @@
  * `void add(int index, E element)` Inserts the specified element at the specified position in this list. Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).
  * `void clear()` Removes all of the elements from this list.
  * `boolean contains(Object o)` Returns true if this list contains the specified element.
- * `void forEach(Consumer<? super E> action)` Performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception.
  * `E get(int index)` Returns the element at the specified position in this list.
  * `int indexOf(Object o)` Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
  * `boolean isEmpty()` Returns true if this list contains no elements.
