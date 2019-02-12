@@ -2,6 +2,7 @@
 ![java-collection-hierarchy](https://github.com/jguamie/practice-problems/blob/master/images/java-collection-hierarchy.jpeg)
 ## HashMap
  * `HashMap<K,V> hashMap = new HashMap<>();` Initializes a new hash map.
+ * `void clear()` Removes all of the mappings from this map.
  * `boolean containsKey(Object key)` Returns true if this map contains a mapping for the specified key.
  * `boolean containsValue(Object value)` Returns true if this map maps one or more keys to the specified value.
  * `Set<Map.Entry<K,V>> entrySet()` Returns a Set view of the mappings contained in this map.
