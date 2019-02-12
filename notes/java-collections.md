@@ -19,6 +19,18 @@ for (Map.Entry<String, String> entry : map.entrySet()) {
   System.out.println(entry.getKey() + " : " + entry.getValue());
 }
 ```
+### Lamba Example
+```
+map.forEach((key,value) -> System.out.println(key + " = " + value));
+```
+### Iterator Example
+```
+Iterator<Entry<String, String>> iter = map.entrySet().iterator();
+while (iter.hasNext()) {
+  Map.Entry<String, String> pair = (Map.Entry<String, String>) iter.next();
+  System.out.println(pair.getKey() + " = " + pair.getValue());
+}
+```
 ## Lists
 ### ArrayList
  * `ArrayList<E> arrayList = new ArrayList<>();` Initializes a new array list.
@@ -50,9 +62,9 @@ LinkedHashSet is implemented as a hash table with a linked list running through 
  * Same methods as HashSet.
 #### Iterator Example
 ```
-Iterator<E> iterator = linkedHashSet.iterator();
-while( iterator.hasNext() ) { // Returns true if the iteration has more elements.
-  System.out.println( iterator.next() ); // Returns the next element in the iteration.
+Iterator<E> iter = linkedHashSet.iterator();
+while( iter.hasNext() ) {
+  System.out.println( iter.next() );
 }
 ```
 ### TreeSet
