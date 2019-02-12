@@ -11,6 +11,12 @@
  * `V remove(Object key)` Removes the mapping for the specified key from this map if present.
  * `int size()` Returns the number of key-value mappings in this map.
  * `Collection<V> values()` Returns a Collection view of the values contained in this map.
+### For Loop Example
+```
+for (Map.Entry<String, String> entry : map.entrySet()) {
+  System.out.println(entry.getKey() + " : " + entry.getValue());
+}
+```
 ## Lists
 ### ArrayList
  * `ArrayList<E> arrayList = new ArrayList<>();` Initializes a new array list.
@@ -43,8 +49,8 @@ LinkedHashSet is implemented as a hash table with a linked list running through 
 #### Iterator Example
 ```
 Iterator<E> iterator = linkedHashSet.iterator();
-  while( iterator.hasNext() ) { // Returns true if the iteration has more elements.
-	System.out.println( iterator.next() ); // Returns the next element in the iteration.
+while( iterator.hasNext() ) { // Returns true if the iteration has more elements.
+  System.out.println( iterator.next() ); // Returns the next element in the iteration.
 }
 ```
 ### TreeSet
