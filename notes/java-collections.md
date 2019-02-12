@@ -13,6 +13,11 @@
  * `V remove(Object key)` Removes the mapping for the specified key from this map if present.
  * `int size()` Returns the number of key-value mappings in this map.
  * `Collection<V> values()` Returns a Collection view of the values contained in this map.
+### Map.Entry
+A map entry (key-value pair) within the HashMap.
+ * `K getKey()` Returns the key corresponding to this entry.
+ * `V getValue()` Returns the value corresponding to this entry.
+ * `V setValue(V value)` Replaces the value corresponding to this entry with the specified value.
 ### For Loop Example
 ```
 for (Map.Entry<String, String> entry : map.entrySet()) {
