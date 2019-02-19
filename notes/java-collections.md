@@ -72,7 +72,7 @@ HashSet is implemented using a hash table. The elements are not ordered. The add
  * `boolean isEmpty()` Returns true if this set contains no elements.
  * `boolean remove(Object o)` Removes the specified element from this set if it is present.
  * `int size()` Returns the number of elements in this set (its cardinality).
-####
+#### Convert Array to HashSet
 ```
 String[] values = { "a", "b", "c" };
 HashSet<String> hashSet = new HashSet<>( Arrays.asList(values) );
