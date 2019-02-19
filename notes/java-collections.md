@@ -51,6 +51,7 @@ while (iter.hasNext()) {
  * `boolean remove(Object o)` Removes the first occurrence of the specified element from this list, if it is present.
  * `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
  * `int size()` Returns the number of elements in this list.
+ * `Collections.sort(arrayList)` Sorts this list.
  * `List<E> subList(int fromIndex, int toIndex)` Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
 ### Convert Array to ArrayList
 ```
