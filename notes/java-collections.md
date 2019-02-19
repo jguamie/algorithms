@@ -72,6 +72,11 @@ HashSet is implemented using a hash table. The elements are not ordered. The add
  * `boolean isEmpty()` Returns true if this set contains no elements.
  * `boolean remove(Object o)` Removes the specified element from this set if it is present.
  * `int size()` Returns the number of elements in this set (its cardinality).
+####
+```
+String[] values = { "a", "b", "c" };
+HashSet<String> hashSet = new HashSet<>( Arrays.asList(values) );
+```
 ### LinkedHashSet
 LinkedHashSet is implemented as a hash table with a linked list running through it. The elements are sorted by order of insertion. The basic methods have constant time complexity O(1).
  * `LinkedHashSet<E> linkedHashSet = new LinkedHashSet<>();` Initializes a new linked hash set.
