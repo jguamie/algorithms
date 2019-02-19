@@ -52,6 +52,17 @@ while (iter.hasNext()) {
  * `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
  * `int size()` Returns the number of elements in this list.
  * `List<E> subList(int fromIndex, int toIndex)` Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.
+### Convert Array to ArrayList
+```
+Integer[] values = { 1, 3, 7 };
+List<Integer> arrayList = new ArrayList<Integer>( Arrays.asList(values) );
+```
+### Convert Array to List
+This is only for reading the values. Any updates will not work.
+```
+Integer[] values = { 1, 3, 7 };
+List<Integer> list = Arrays.asList(values);
+```
 ## Sets
 ### HashSet
 HashSet is implemented using a hash table. The elements are not ordered. The add, remove, and contains methods have constant time complexity O(1).
