@@ -11,6 +11,7 @@
 * `static char toLowerCase(char ch)` Converts the character argument to lowercase using case mapping information from the UnicodeData file.
 * `static char toUpperCase(char ch)` Converts the character argument to uppercase using case mapping information from the UnicodeData file.
 ## String
+* `String(char[] value)` Allocates a new String so that it represents the sequence of characters currently contained in the character array argument.
 * `char charAt(int index)` Returns the char value at the specified index.
 * `boolean contains(CharSequence s)` Returns true if and only if this string contains the specified sequence of char values.
 * `boolean endsWith(String suffix)` Tests if this string ends with the specified suffix.
@@ -27,4 +28,7 @@
 * `static String valueOf(char[] data)` Returns the string representation of the char array argument.
 * `static String valueOf(int i)` Returns the string representation of the int argument.
   * `valueOf` also applies to boolean, char, double, float, long.
-
+## Point
+* `Point(int x, int y)` Constructs and initializes a point at the specified (x,y) location in the coordinate space.
+* `double getX()` Returns the X coordinate of this Point2D in double precision.
+* `double getY()` Returns the Y coordinate of this Point2D in double precision.
