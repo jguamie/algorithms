@@ -7,7 +7,6 @@
   * `sort` also applies to boolean, byte, double, float, int, long, short.
 * `static <T> void sort(T[] a, Comparator<? super T> c)` Sorts the specified array of objects according to the order induced by the specified comparator.
 ## Collections
-* `static <T> void copy(List<? super T> dest, List<? extends T> src)` Copies all of the elements from one list into another.
 * `static <T> void fill(List<? super T> list, T obj)` Replaces all of the elements of the specified list with the specified element.
 * `static int frequency(Collection<?> c, Object o)` Returns the number of elements in the specified collection equal to the specified object.
 * `static void reverse(List<?> list)` Reverses the order of the elements in the specified list.
