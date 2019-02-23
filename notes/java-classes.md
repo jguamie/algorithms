@@ -1,4 +1,20 @@
 # Java Classes
+## Arrays
+* `static <T> List<T> asList(T... a)` Returns a fixed-size list backed by the specified array.
+* `static`void`fill(int[] a, int val)` Assigns the specified int value to each element of the specified array of ints.
+  * `fill` also applies to boolean, byte, char, double, float, long, short.
+* `static void sort(char[] a)` Sorts the specified array into ascending numerical order.
+  * `sort` also applies to boolean, byte, double, float, int, long, short.
+* `static <T> void sort(T[] a, Comparator<? super T> c)` Sorts the specified array of objects according to the order induced by the specified comparator.
+## Collections
+* `static <T> void copy(List<? super T> dest, List<? extends T> src)` Copies all of the elements from one list into another.
+* `static <T> void fill(List<? super T> list, T obj)` Replaces all of the elements of the specified list with the specified element.
+* `static int frequency(Collection<?> c, Object o)` Returns the number of elements in the specified collection equal to the specified object.
+* `static void reverse(List<?> list)` Reverses the order of the elements in the specified list.
+* `static <T> Comparator<T> reverseOrder()` Returns a comparator that imposes the reverse of the natural ordering on a collection of objects that implement the Comparable interface.
+* `static void shuffle(List<?> list)` Randomly permutes the specified list using a default source of randomness.
+* `static <T extends Comparable<? super T>> void	sort(List<T> list)` Sorts the specified list into ascending order, according to the natural ordering of its elements.
+* `static <T> void sort(List<T> list, Comparator<? super T> c)` Sorts the specified list according to the order induced by the specified comparator.
 ## Character
 * `static char forDigit(int digit, int radix)` Determines the character representation for a specific digit in the specified radix.
 * `static int getNumericValue(char ch)` Returns the int value that the specified Unicode character represents.
@@ -27,7 +43,7 @@
 * `String toUpperCase()` Converts all of the characters in this String to upper case using the rules of the default locale.
 * `static String valueOf(char[] data)` Returns the string representation of the char array argument.
 * `static String valueOf(int i)` Returns the string representation of the int argument.
-  * `valueOf` also applies to boolean, char, double, float, long.
+  * `valueOf` also applies to boolean, char, double, float, long, short.
 ## Point
 * `Point(int x, int y)` Constructs and initializes a point at the specified (x,y) location in the coordinate space.
 * `double getX()` Returns the X coordinate of this Point2D in double precision.
