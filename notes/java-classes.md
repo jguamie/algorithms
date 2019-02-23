@@ -1,4 +1,15 @@
 # Java Classes
+## Character
+* `static char forDigit(int digit, int radix)` Determines the character representation for a specific digit in the specified radix.
+* `static int getNumericValue(char ch)` Returns the int value that the specified Unicode character represents.
+* `static boolean isDigit(char ch)` Determines if the specified character is a digit.
+* `static boolean isLetter(char ch)` Determines if the specified character is a letter.
+* `static boolean isLetterOrDigit(char ch)` Determines if the specified character is a letter or digit.
+* `static boolean isLowerCase(char ch)` Determines if the specified character is a lowercase character.
+* `static boolean isUpperCase(char ch)` Determines if the specified character is an uppercase character.
+* `static boolean isWhitespace(char ch)` Determines if the specified character is white space according to Java.
+* `static char toLowerCase(char ch)` Converts the character argument to lowercase using case mapping information from the UnicodeData file.
+* `static char toUpperCase(char ch)` Converts the character argument to uppercase using case mapping information from the UnicodeData file.
 ## String
 * `char charAt(int index)` Returns the char value at the specified index.
 * `boolean contains(CharSequence s)` Returns true if and only if this string contains the specified sequence of char values.
