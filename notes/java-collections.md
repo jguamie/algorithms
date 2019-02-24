@@ -105,16 +105,17 @@ TreeSet is implemented using a red-black tree. The elements are sorted. The add,
 ### LinkedList
 * `Queue<E> linkedList = new LinkedList<>();` Initializes a new linked list.
 #### Stack Methods
-A linked list can be used as a stack.
+A linked list can be used as a stack (LIFO).
 * `E peek()` Retrieves, but does not remove, the head (first element) of this list.
 * `E pop()` Pops an element from the stack represented by this list.
 * `void push(E e)` Pushes an element onto the stack represented by this list.
 #### Queue Methods
-A linked list can be used as a queue.
-* `boolean add(E e)` Appends the specified element to the end of this list.
+A linked list can be used as a queue (FIFO).
+* `boolean offer(E e)` Adds the specified element as the tail (last element) of this list.
 * `E peek()` Retrieves, but does not remove, the head (first element) of this list.
 * `E poll()` Retrieves and removes the head (first element) of this list.
 #### Other Methods
+* `boolean add(E e)` Appends the specified element to the end of this list.
 * `void add(int index, E element)` Inserts the specified element at the specified position in this list.
 * `void addFirst(E e)` Inserts the specified element at the beginning of this list.
 * `void addLast(E e)` Appends the specified element to the end of this list.
@@ -134,6 +135,7 @@ A priority queue is essentially a min heap. The head of this queue is the least 
 * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, (a, b) -> b - a);` Instead, use a lambda expression to reverse ordering.
 * `boolean add(E e)` Inserts the specified element into this priority queue.
 * `boolean contains(Object o)` Returns true if this queue contains the specified element.
+* `boolean offer(E e)` Inserts the specified element into this priority queue.
 * `E peek()` Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
 * `E poll()` Retrieves and removes the head of this queue, or returns null if this queue is empty.
 * `boolean remove(Object o)` Removes a single instance of the specified element from this queue, if it is present.
