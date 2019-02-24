@@ -101,7 +101,6 @@ TreeSet is implemented using a red-black tree. The elements are sorted. The add,
 * `E pollLast()` Retrieves and removes the last (highest) element, or returns null if this set is empty.
 * `boolean remove(Object o)` Removes the specified element from this set if it is present.
 * `int size()` Returns the number of elements in this set.
-* `SortedSet<E> subSet(E fromElement, E toElement)` Returns a view of the portion of this set whose elements range from fromElement, inclusive, to toElement, exclusive.
 ## Stack
 * `Stack<E> stack = new Stack<>();` Initializes a new stack.
 
