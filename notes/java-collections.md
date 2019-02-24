@@ -101,27 +101,39 @@ TreeSet is implemented using a red-black tree. The elements are sorted. The add,
 * `E pollLast()` Retrieves and removes the last (highest) element, or returns null if this set is empty.
 * `boolean remove(Object o)` Removes the specified element from this set if it is present.
 * `int size()` Returns the number of elements in this set.
-## Stack
-* `Stack<E> stack = new Stack<>();` Initializes a new stack.
-
-Action | Method
------------- | ------------
-Insert | `push(e)`
-Remove | `pop()`
-Examine | `peek()`
-
-* `boolean empty()` Tests if this stack is empty.
-* `int search(Object o)` Returns the 1-based position where an object is on this stack.
-## Queue
-Action | Method
------------- | ------------
-Insert | `offer(e)` or `add(e)`
-Remove | `poll()`
-Examine | `peek()`
-### LinkedList
+## LinkedList
 * `Queue<E> linkedList = new LinkedList<>();` Initializes a new linked list.
-### PriorityQueue
+* `void add(int index, E element)` Inserts the specified element at the specified position in this list.
+* `void addFirst(E e)` Inserts the specified element at the beginning of this list.
+* `void addLast(E e)` Appends the specified element to the end of this list.
+* `E get(int index)` Returns the element at the specified position in this list.
+* `E peekFirst()` Retrieves, but does not remove, the first element of this list, or returns null if this list is empty.
+* `E peekLast()` Retrieves, but does not remove, the last element of this list, or returns null if this list is empty.
+* `E pollFirst()` Retrieves and removes the first element of this list, or returns null if this list is empty.
+* `E pollLast()` Retrieves and removes the last element of this list, or returns null if this list is empty.
+* `E remove(int index)` Removes the element at the specified position in this list.
+* `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
+* `int size()` Returns the number of elements in this list.
+* `Object[] toArray()` Returns an array containing all of the elements in this list in proper sequence (from first to last element).
+### Stack Methods
+A linked list can be used as a stack.
+* `E peek()` Retrieves, but does not remove, the head (first element) of this list.
+* `E pop()` Pops an element from the stack represented by this list.
+* `void push(E e)` Pushes an element onto the stack represented by this list.
+### Queue Methods
+A linked list can be used as a queue.
+* `boolean add(E e)` Appends the specified element to the end of this list.
+* `E peek()` Retrieves, but does not remove, the head (first element) of this list.
+* `E poll()` Retrieves and removes the head (first element) of this list.
+## PriorityQueue
 A priority queue is essentially a min heap. The head of this queue is the least element with respect to the specified ordering.
 * `Queue<E> priorityQueue = new PriorityQueue<>();` Initializes a new priority queue.
 * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, Collections.reverseOrder());` Initialize as a max heap. An initial capacity must be provided if changing the order. In this example, 5 is the initial capacity. Capacity is not the same as size. The size at initialization will still be 0.
 * `Queue<Integer> priorityQueue = new PriorityQueue<>(5, (a, b) -> b - a);` Instead, use a lambda expression to reverse ordering.
+* `boolean add(E e)` Inserts the specified element into this priority queue.
+* `boolean contains(Object o)` Returns true if this queue contains the specified element.
+* `E peek()` Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+* `E poll()` Retrieves and removes the head of this queue, or returns null if this queue is empty.
+* `boolean remove(Object o)` Removes a single instance of the specified element from this queue, if it is present.
+* `int size()` Returns the number of elements in this collection.
+* `Object[] toArray()` Returns an array containing all of the elements in this queue.
