@@ -43,6 +43,10 @@
 * `static String valueOf(char[] data)` Returns the string representation of the char array argument.
 * `static String valueOf(int i)` Returns the string representation of the int argument.
   * `valueOf` also applies to boolean, char, double, float, long, short.
+## Pair
+* `Pair(K key, V value)` Creates a new pair.
+* `K getKey()` Gets the key for this pair.
+* `V getValue()` Gets the value for this pair.
 ## Point
 * `Point(int x, int y)` Constructs and initializes a point at the specified (x,y) location in the coordinate space.
 * `double getX()` Returns the X coordinate of this Point2D in double precision.
