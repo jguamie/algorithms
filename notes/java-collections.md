@@ -104,6 +104,17 @@ TreeSet is implemented using a red-black tree. The elements are sorted. The add,
 ## Queues
 ### LinkedList
 * `Queue<E> linkedList = new LinkedList<>();` Initializes a new linked list.
+#### Stack Methods
+A linked list can be used as a stack.
+* `E peek()` Retrieves, but does not remove, the head (first element) of this list.
+* `E pop()` Pops an element from the stack represented by this list.
+* `void push(E e)` Pushes an element onto the stack represented by this list.
+#### Queue Methods
+A linked list can be used as a queue.
+* `boolean add(E e)` Appends the specified element to the end of this list.
+* `E peek()` Retrieves, but does not remove, the head (first element) of this list.
+* `E poll()` Retrieves and removes the head (first element) of this list.
+#### Other Methods
 * `void add(int index, E element)` Inserts the specified element at the specified position in this list.
 * `void addFirst(E e)` Inserts the specified element at the beginning of this list.
 * `void addLast(E e)` Appends the specified element to the end of this list.
@@ -116,16 +127,6 @@ TreeSet is implemented using a red-black tree. The elements are sorted. The add,
 * `E set(int index, E element)` Replaces the element at the specified position in this list with the specified element.
 * `int size()` Returns the number of elements in this list.
 * `Object[] toArray()` Returns an array containing all of the elements in this list in proper sequence (from first to last element).
-#### Stack Methods
-A linked list can be used as a stack.
-* `E peek()` Retrieves, but does not remove, the head (first element) of this list.
-* `E pop()` Pops an element from the stack represented by this list.
-* `void push(E e)` Pushes an element onto the stack represented by this list.
-#### Queue Methods
-A linked list can be used as a queue.
-* `boolean add(E e)` Appends the specified element to the end of this list.
-* `E peek()` Retrieves, but does not remove, the head (first element) of this list.
-* `E poll()` Retrieves and removes the head (first element) of this list.
 ### PriorityQueue
 A priority queue is essentially a min heap. The head of this queue is the least element with respect to the specified ordering.
 * `Queue<E> priorityQueue = new PriorityQueue<>();` Initializes a new priority queue.
