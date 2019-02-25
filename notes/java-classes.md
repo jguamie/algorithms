@@ -40,7 +40,7 @@
 * `String replace(CharSequence target, CharSequence replacement)` Replaces each substring of this string that matches the literal target sequence with the specified literal replacement sequence.
 * `boolean startsWith(String prefix)` Tests if this string starts with the specified prefix.
 * `String substring(int beginIndex)` Returns a new string that is a substring of this string.
-* `String substring(int beginIndex, int endIndex)` Returns a new string that is a substring of this string.
+* `String substring(int beginIndex, int endIndex)` Returns a new string that is a substring of this string. The substring begins at the specified beginIndex and extends to the character at index endIndex - 1. 
 * `char[] toCharArray()` Converts this string to a new character array.
 * `String toLowerCase()` Converts all of the characters in this String to lower case using the rules of the default locale.
 * `String toUpperCase()` Converts all of the characters in this String to upper case using the rules of the default locale.
