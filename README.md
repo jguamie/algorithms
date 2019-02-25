@@ -44,11 +44,15 @@
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-6.png)
 ## Dynamic Programming
 * [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
+## Big O
+* [Chapter VI: Big O - Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 ## LeetCode Easy
 * Review with [LeetCode Easy Collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
 ## LeetCode Medium
 * Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
 # Resources
+* [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+* [Algorithms, Fourth Edition (Deluxe)](https://www.amazon.com/Algorithms-Fourth-Deluxe-24-Part-Lecture/dp/0134384687)
 * [The Algorithm Design Manual - Steven Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
 * [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 * [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
