@@ -25,11 +25,17 @@
 * `static boolean isWhitespace(char ch)` Determines if the specified character is white space according to Java.
 * `static char toLowerCase(char ch)` Converts the character argument to lowercase using case mapping information from the UnicodeData file.
 * `static char toUpperCase(char ch)` Converts the character argument to uppercase using case mapping information from the UnicodeData file.
+## Double
+* `float floatValue()` Returns the float value of this Double object.
+* `int intValue()` Returns the value of this Double as an int (by casting to type int).
+* `long longValue()` Returns the value of this Double as a long (by casting to type long).
+* `static String toString(double d)` Returns a string representation of the double argument.
+* `static Double valueOf(String s)` Returns a Double object holding the double value represented by the argument string s.
 ## Integer
 * `double doubleValue()` Returns the value of this Integer as a double.
 * `float floatValue()` Returns the value of this Integer as a float.
 * `long longValue()` Returns the value of this Integer as a long.
-* `String toString()` Returns a String object representing this Integer's value.
+* `static String toString(int i)` Returns a String object representing the specified integer.
 * `static Integer valueOf(String s)` Returns an Integer object holding the value of the specified String.
 ## String
 * `String(char[] value)` Allocates a new String so that it represents the sequence of characters currently contained in the character array argument.
