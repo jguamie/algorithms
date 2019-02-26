@@ -12,6 +12,7 @@
 * `static <T> void sort(T[] a, Comparator<? super T> c)` Sorts the specified array of objects according to the order induced by the specified comparator.
 ## Collections
 * `static <T> int binarySearch(List<? extends Comparable<? super T>> list, T key)` Searches the specified list for the specified object using the binary search algorithm.
+  * Return index of the search key, if it is contained in the array. Otherwise, the insertion point is defined as the point at which the key would be inserted into the array: the index of the first element greater than the key, or a.length if all elements in the array are less than the specified key.
 * `static <T> void fill(List<? super T> list, T obj)` Replaces all of the elements of the specified list with the specified element.
 * `static <T> Comparator<T> reverseOrder()` Returns a comparator that imposes the reverse of the natural ordering on a collection of objects that implement the Comparable interface.
 * `static <T extends Comparable<? super T>> void	sort(List<T> list)` Sorts the specified list into ascending order, according to the natural ordering of its elements.
