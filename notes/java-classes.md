@@ -12,13 +12,10 @@
 ## Collections
 * `static <T> int binarySearch(List<? extends Comparable<? super T>> list, T key)` Searches the specified list for the specified object using the binary search algorithm.
 * `static <T> void fill(List<? super T> list, T obj)` Replaces all of the elements of the specified list with the specified element.
-* `static void reverse(List<?> list)` Reverses the order of the elements in the specified list.
 * `static <T> Comparator<T> reverseOrder()` Returns a comparator that imposes the reverse of the natural ordering on a collection of objects that implement the Comparable interface.
-* `static void shuffle(List<?> list)` Randomly permutes the specified list using a default source of randomness.
 * `static <T extends Comparable<? super T>> void	sort(List<T> list)` Sorts the specified list into ascending order, according to the natural ordering of its elements.
 * `static <T> void sort(List<T> list, Comparator<? super T> c)` Sorts the specified list according to the order induced by the specified comparator.
 ## Character
-* `static char forDigit(int digit, int radix)` Determines the character representation for a specific digit in the specified radix.
 * `static int getNumericValue(char ch)` Returns the int value that the specified Unicode character represents.
 * `static boolean isDigit(char ch)` Determines if the specified character is a digit.
 * `static boolean isLetter(char ch)` Determines if the specified character is a letter.
