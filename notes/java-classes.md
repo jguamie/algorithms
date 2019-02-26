@@ -26,15 +26,11 @@
 * `static char toLowerCase(char ch)` Converts the character argument to lowercase using case mapping information from the UnicodeData file.
 * `static char toUpperCase(char ch)` Converts the character argument to uppercase using case mapping information from the UnicodeData file.
 ## Double
-* `float floatValue()` Returns the float value of this Double object.
-* `int intValue()` Returns the value of this Double as an int (by casting to type int).
-* `long longValue()` Returns the value of this Double as a long (by casting to type long).
 * `static String toString(double d)` Returns a string representation of the double argument.
 * `static Double valueOf(String s)` Returns a Double object holding the double value represented by the argument string s.
 ## Integer
-* `double doubleValue()` Returns the value of this Integer as a double.
-* `float floatValue()` Returns the value of this Integer as a float.
-* `long longValue()` Returns the value of this Integer as a long.
+* `static int MAX_VALUE` A constant holding the maximum value an int can have, 231-1.
+* `static int MIN_VALUE` A constant holding the minimum value an int can have, -231.
 * `static String toString(int i)` Returns a String object representing the specified integer.
 * `static Integer valueOf(String s)` Returns an Integer object holding the value of the specified String.
 ## String
