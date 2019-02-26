@@ -4,7 +4,7 @@
 * `static int binarySearch(int[] a, int key)` Searches the specified array of ints for the specified value using the binary search algorithm.
 * `static int binarySearch(int[] a, int fromIndex, int toIndex, int key)` Searches a range of the specified array of ints for the specified value using the binary search algorithm.
   * `binarySearch` also applies to byte, char, double, float, long, short.
-* `static`void`fill(int[] a, int val)` Assigns the specified int value to each element of the specified array of ints.
+* `static void fill(int[] a, int val)` Assigns the specified int value to each element of the specified array of ints.
   * `fill` also applies to boolean, byte, char, double, float, long, short.
 * `static void sort(char[] a)` Sorts the specified array into ascending numerical order.
   * `sort` also applies to boolean, byte, double, float, int, long, short.
