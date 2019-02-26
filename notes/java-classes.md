@@ -39,6 +39,10 @@
 * `boolean contains(CharSequence s)` Returns true if and only if this string contains the specified sequence of char values.
 * `boolean endsWith(String suffix)` Tests if this string ends with the specified suffix.
 * `boolean equals(Object anObject)` Compares this string to the specified object.
+* `int indexOf(int ch)` Returns the index within this string of the first occurrence of the specified character.
+* `int indexOf(int ch, int fromIndex)` Returns the index within this string of the first occurrence of the specified character, starting the search at the specified index.
+* `int indexOf(String str)` Returns the index within this string of the first occurrence of the specified substring.
+* `int indexOf(String str, int fromIndex)` Returns the index within this string of the first occurrence of the specified substring, starting at the specified index.
 * `int length()` Returns the length of this string.
 * `String replace(char oldChar, char newChar)` Returns a new string resulting from replacing all occurrences of oldChar in this string with newChar.
 * `String replace(CharSequence target, CharSequence replacement)` Replaces each substring of this string that matches the literal target sequence with the specified literal replacement sequence.
