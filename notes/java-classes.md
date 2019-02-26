@@ -12,7 +12,6 @@
 ## Collections
 * `static <T> int binarySearch(List<? extends Comparable<? super T>> list, T key)` Searches the specified list for the specified object using the binary search algorithm.
 * `static <T> void fill(List<? super T> list, T obj)` Replaces all of the elements of the specified list with the specified element.
-* `static int frequency(Collection<?> c, Object o)` Returns the number of elements in the specified collection equal to the specified object.
 * `static void reverse(List<?> list)` Reverses the order of the elements in the specified list.
 * `static <T> Comparator<T> reverseOrder()` Returns a comparator that imposes the reverse of the natural ordering on a collection of objects that implement the Comparable interface.
 * `static void shuffle(List<?> list)` Randomly permutes the specified list using a default source of randomness.
