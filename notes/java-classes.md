@@ -26,6 +26,9 @@
 * `static char toLowerCase(char ch)` Converts the character argument to lowercase using case mapping information from the UnicodeData file.
 * `static char toUpperCase(char ch)` Converts the character argument to uppercase using case mapping information from the UnicodeData file.
 ## Integer
+* `double doubleValue()` Returns the value of this Integer as a double.
+* `float floatValue()` Returns the value of this Integer as a float.
+* `long longValue()` Returns the value of this Integer as a long.
 * `String toString()` Returns a String object representing this Integer's value.
 * `static Integer valueOf(String s)` Returns an Integer object holding the value of the specified String.
 ## String
