@@ -29,8 +29,8 @@
 * `static String toString(double d)` Returns a string representation of the double argument.
 * `static Double valueOf(String s)` Returns a Double object holding the double value represented by the argument string s.
 ## Integer
-* `static int MAX_VALUE` A constant holding the maximum value an int can have, 231-1.
-* `static int MIN_VALUE` A constant holding the minimum value an int can have, -231.
+* `static int MAX_VALUE` A constant holding the maximum value an int can have, 2<sup>31</sup>-1.
+* `static int MIN_VALUE` A constant holding the minimum value an int can have, -2<sup>31</sup>.
 * `static String toString(int i)` Returns a String object representing the specified integer.
 * `static Integer valueOf(String s)` Returns an Integer object holding the value of the specified String.
 ## String
