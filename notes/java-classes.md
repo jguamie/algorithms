@@ -29,6 +29,9 @@
 * `static boolean isWhitespace(char ch)` Determines if the specified character is white space according to Java.
 * `static char toLowerCase(char ch)` Converts the character argument to lowercase using case mapping information from the UnicodeData file.
 * `static char toUpperCase(char ch)` Converts the character argument to uppercase using case mapping information from the UnicodeData file.
+## Integer
+* `String toString()` Returns a String object representing this Integer's value.
+* `static Integer valueOf(String s)` Returns an Integer object holding the value of the specified String.
 ## String
 * `String(char[] value)` Allocates a new String so that it represents the sequence of characters currently contained in the character array argument.
 * `char charAt(int index)` Returns the char value at the specified index.
