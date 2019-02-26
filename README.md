@@ -2,6 +2,8 @@
 * [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
 * [Cracking the Code Interview - YouTube Videos](https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
+* [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
+* [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 # Recommended Order of Study
 ## Sorting
 * [Chapter 1: Introduction - Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/)
