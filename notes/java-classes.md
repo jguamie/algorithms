@@ -1,9 +1,10 @@
 # Java Classes
 ## Arrays
 * `static <T> List<T> asList(T... a)` Returns a fixed-size list backed by the specified array.
-* `static int binarySearch(int[] a, int key)` Searches the specified array of ints for the specified value using the binary search algorithm.
-* `static int binarySearch(int[] a, int fromIndex, int toIndex, int key)` Searches a range of the specified array of ints for the specified value using the binary search algorithm.
-  * `binarySearch` also applies to byte, char, double, float, long, short.
+* `static int binarySearch(char[] a, char key)` Searches the specified array of chars for the specified value using the binary search algorithm.
+* `static int binarySearch(char[] a, int fromIndex, int toIndex, char key)` Searches a range of the specified array of chars for the specified value using the binary search algorithm.
+  * `binarySearch` also applies to byte, double, float, int, long, short.
+  * Return index of the search key, if it is contained in the array. Otherwise, the insertion point is defined as the point at which the key would be inserted into the array: the index of the first element greater than the key, or a.length if all elements in the array are less than the specified key.
 * `static void fill(int[] a, int val)` Assigns the specified int value to each element of the specified array of ints.
   * `fill` also applies to boolean, byte, char, double, float, long, short.
 * `static void sort(char[] a)` Sorts the specified array into ascending numerical order.
