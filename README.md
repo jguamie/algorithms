@@ -39,19 +39,27 @@
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
 ## Graphs
+* [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 * [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 * [LeetCode Graph Problems](https://leetcode.com/tag/graph/) 133, 207, 210, 261, 269, 310, 323
 ![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 228, 231, 240
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-6.png)
+## More Graphs
+* [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 ## Dynamic Programming
-* [Dynamic Programming - GeeksforGeeks](https://www.geeksforgeeks.org/dynamic-programming/)
+* [Memoization and Dynamic Programming - Gayle McDowell](https://youtu.be/P8Xa2BitN3I)
+* [Solve 'Recursive Staircase' Using Recursion - Gayle McDowell](https://youtu.be/eREiwuvzaUM)
+* [Solve 'Coin Change' Using Memoization and DP - Gayle McDowell](https://youtu.be/sn0DWI-JdNA)
 ## Big O
 * [Chapter VI: Big O - Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 ## LeetCode Easy
 * Review with [LeetCode Easy Collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
 ## LeetCode Medium
 * Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
+## Mock Interviews
+* Practice with at least 7 coding mock interviews.
+[Technical Mock Interview](https://www.techmockinterview.com/)
 # Resources
 * [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 * [Algorithms, Fourth Edition (Deluxe)](https://www.amazon.com/Algorithms-Fourth-Deluxe-24-Part-Lecture/dp/0134384687)
