@@ -62,8 +62,7 @@
 ## LeetCode Medium
 * Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
 ## Mock Interviews
-* Practice with at least 7 coding mock interviews.
-[Technical Mock Interview](https://www.techmockinterview.com/)
+* Practice with at least 7 coding mock interviews through [Technical Mock Interview](https://www.techmockinterview.com/).
 # Resources
 * [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
@@ -72,3 +71,4 @@
 * [Gayle McDowell - YouTube Videos](https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt)
 * [GeeksforGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
 * [GeeksforGeeks - Graph Data Structure And Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
+* [Technical Mock Interview](https://www.techmockinterview.com/)
