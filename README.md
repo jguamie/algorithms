@@ -9,7 +9,7 @@
 * [Week 2: Elementary Sorts - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * [Week 3: Mergesort and Quicksort - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 ## Arrays
-* [Solve '2Sum' Coding/Engineering Interview - How to: Work at Google](https://youtu.be/XKu_SEDAykw)
+* [Solve '2Sum' Coding/Engineering Interview - How to: Work at Google (YouTube)](https://youtu.be/XKu_SEDAykw)
 * [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
 ![leetcode-array-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array.png)
 ## Binary Search
@@ -42,9 +42,9 @@
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
 ## Graphs
 * [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
-* [Graph Search, DFS and BFS](https://youtu.be/zaBhtODEL0w)
-* [Solve 'Shortest Reach' Using BFS - Gayle McDowell](https://youtu.be/0XgVhsMOcQM)
-* [Solve 'Connected Cells' Using DFS - Gayle McDowell](https://youtu.be/R4Nh-EgWjyQ)
+* [Graph Search, DFS and BFS (YouTube)](https://youtu.be/zaBhtODEL0w)
+* [Solve 'Shortest Reach' Using BFS - Gayle McDowell (YouTube)](https://youtu.be/0XgVhsMOcQM)
+* [Solve 'Connected Cells' Using DFS - Gayle McDowell (YouTube)](https://youtu.be/R4Nh-EgWjyQ)
 * [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 * [LeetCode Graph Problems](https://leetcode.com/tag/graph/) 133, 207, 210, 261, 269, 310, 323
 ![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
@@ -53,9 +53,9 @@
 ## More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 ## Dynamic Programming
-* [Memoization and Dynamic Programming - Gayle McDowell](https://youtu.be/P8Xa2BitN3I)
-* [Solve 'Recursive Staircase' Using Recursion - Gayle McDowell](https://youtu.be/eREiwuvzaUM)
-* [Solve 'Coin Change' Using Memoization and DP - Gayle McDowell](https://youtu.be/sn0DWI-JdNA)
+* [Memoization and Dynamic Programming - Gayle McDowell (YouTube)](https://youtu.be/P8Xa2BitN3I)
+* [Solve 'Recursive Staircase' Using Recursion - Gayle McDowell (YouTube)](https://youtu.be/eREiwuvzaUM)
+* [Solve 'Coin Change' Using Memoization and DP - Gayle McDowell (YouTube)](https://youtu.be/sn0DWI-JdNA)
 ## LeetCode Easy
 * Review with [LeetCode Easy Collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
 ## LeetCode Medium
