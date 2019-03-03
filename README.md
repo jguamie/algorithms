@@ -9,6 +9,7 @@
 * [Week 2: Elementary Sorts - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * [Week 3: Mergesort and Quicksort - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 ## Arrays
+* [Solve '2Sum' Coding/Engineering Interview - How to: Work at Google](https://youtu.be/XKu_SEDAykw)
 * [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
 ![leetcode-array-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array.png)
 ## Binary Search
