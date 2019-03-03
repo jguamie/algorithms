@@ -31,7 +31,7 @@
 * `static String toString(double d)` Returns a string representation of the double argument.
 * `static Double valueOf(String s)` Returns a Double object holding the double value represented by the argument string s.
 ### Convert to Double
-Convert float, int, long, or short to double.
+Convert float, int, long, short to double.
 ```
 int x = 15;
 double y = (double)x;
@@ -42,7 +42,7 @@ double y = (double)x;
 * `static String toString(int i)` Returns a String object representing the specified integer.
 * `static Integer valueOf(String s)` Returns an Integer object holding the value of the specified String.
 ### Convert to Int
-Convert double, float, long, or short to int.
+Convert double, float, long, short to int.
 ```
 double x = 1.5;
 int y = (int)x;
@@ -53,7 +53,7 @@ int y = (int)x;
 * `String toString()` Returns a String object representing this Long's value.
 * `static Long valueOf(long l)` Returns a Long instance representing the specified long value.
 ### Convert to Long
-Convert double, float, int, or short to long.
+Convert double, float, int, short to long.
 ```
 double x = 1.5;
 long y = (long)x;
