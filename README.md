@@ -57,8 +57,6 @@
 * [Solve 'Recursive Staircase' Using Recursion - Gayle McDowell (YouTube)](https://youtu.be/eREiwuvzaUM)
 * [Solve 'Coin Change' Using Memoization and DP - Gayle McDowell (YouTube)](https://youtu.be/sn0DWI-JdNA)
 * [LeetCode Dynamic Programming Problems](https://leetcode.com/tag/dynamic-programming/)
-## LeetCode Easy
-* Review with [LeetCode Easy Collection](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
 ## LeetCode Medium
 * Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
 ## Mock Interviews
