@@ -12,6 +12,26 @@ dfs(i)
     if (!visited[j]) dfs(j)
 ```
 ## Algorithms from DFS
+### Directed Acyclic Graph (DAG) Check
+``` diff
+main()
+  for (vertex i : graph)
+-   if (!visited[i]) dfs(i)
++   if (dfs(i)) return true
++ return false
+
+// dfs returns true if cycle is present, otherwise returns false
+dfs(i)
++ if (cycle[i]) return true
++ if (visited[i]) return false
++ cycle[i] = true
+  visited[i] = true;
+  for (vertex j : adjacencyList[i])
+-   if (!visited[j]) dfs(j)
++   if (dfs(j)) return true
++ cycle[i] = false
++ return false
+```
 ### Topological Sort
 ``` diff
 main()
