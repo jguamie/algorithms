@@ -1,5 +1,41 @@
 # Graph Notes
-A majority of graph algorithms are derivatives of Depth First Search (DFS) or Breadth First Search (BFS).
+A majority of graph algorithms are derivatives of Breadth First Search (BFS) or Depth First Search (DFS).
+## Breadth First Search (BFS)
+```
+void main()
+  for (vertex i : graph)
+    if (!visited[i]) bfs(i)
+
+void bfs(i)
+  visited[i] = true
+  queue.offer(i)
+  while (!queue.isEmpty())
+    j = queue.poll()
+    for (vertex k : adjacencyList[j])
+      if (!visited[k])
+        visited[k] = true
+        queue.add(k)
+```
+## Algorithms from BFS
+### Shortest Path
+```
+void main()
+  for (vertex i : graph)
+    if (!visited[i])
++     distance[i] = 0
+      bfs(i)
+
+void bfs(i)
+  visited[i] = true
+  queue.offer(i)
+  while (!queue.isEmpty())
+    j = queue.poll()
+    for (vertex k : adjacencyList[j])
+      if (!visited[k])
+        visited[k] = true
++       distance[k] = distance[j] + 1
+        queue.add(k)
+```
 ## Depth First Search (DFS)
 ```
 void main()
@@ -74,20 +110,4 @@ void dfs(i)
   for (vertex j : adjacencyList[i])
     if (!visited[j]) dfs(j)
 + postorderStack.push(i)
-```
-## Breadth First Search (BFS)
-```
-void main()
-  for (vertex i : graph)
-    if (!visited[i]) bfs(i)
-
-void bfs(i)
-  visited[i] = true
-  queue.offer(i)
-  while (!queue.isEmpty())
-    j = queue.poll()
-    for (vertex k : adjacencyList[j])
-      if (!visited[k])
-        visited[k] = true
-        queue.add(k)
 ```
