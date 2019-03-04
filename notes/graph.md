@@ -4,14 +4,12 @@ A majority of graph algorithms are derivatives of Depth First Search (DFS) or Br
 ```
 void main()
   for (vertex i : graph)
-    if (!visited[i])
-      dfs(i)
+    if (!visited[i]) dfs(i)
 
 void dfs(i)
   visited[i] = true
   for (vertex j : adjacencyList[i])
-    if (!visited[j])
-      dfs(j)
+    if (!visited[j]) dfs(j)
 ```
 ## Algorithms from DFS
 ### Bipartite
@@ -19,8 +17,7 @@ void dfs(i)
 void main()
 + isBipartite = true
   for (vertex i : graph)
-    if (!visited[i])
-      dfs(i)
+    if (!visited[i]) dfs(i)
 
 void dfs(i)
   visited[i] = true
@@ -43,8 +40,7 @@ void dfs(i)
   visited[i] = true
 + component[i] = id
   for (vertex j : adjacencyList[i])
-    if (!visited[j])
-      dfs(j)
+    if (!visited[j]) dfs(j)
 ```
 ### Directed Acyclic Graph (DAG) Check
 `dfs` returns true if cycle is present, otherwise returns false
@@ -52,20 +48,17 @@ void dfs(i)
 void main()
   for (vertex i : graph)
 -   if (!visited[i]) dfs(i)
-+   if (dfs(i))
-+     return true
++   if (dfs(i)) return true
 + return false
 
-boolean dfs(i)
+boolean isCyclic(i)
 + if (cycle[i]) return true
 + if (visited[i]) return false
 + cycle[i] = true
   visited[i] = true
   for (vertex j : adjacencyList[i])
--   if (!visited[j])
--     dfs(j)
-+   if (dfs(j))
-+     return true
+-   if (!visited[j]) dfs(j)
++   if (isCyclic(j)) return true
 + cycle[i] = false
 + return false
 ```
@@ -74,22 +67,19 @@ boolean dfs(i)
 ``` diff
 void main()
   for (vertex i : graph)
-    if (!visited[i])
-      dfs(i)
+    if (!visited[i]) dfs(i)
 
 void dfs(i)
   visited[i] = true
   for (vertex j : adjacencyList[i])
-    if (!visited[j])
-      dfs(j)
+    if (!visited[j]) dfs(j)
 + postorderStack.push(i)
 ```
 ## Breadth First Search (BFS)
 ```
 void main()
   for (vertex i : graph)
-    if (!visited[i])
-      bfs(i)
+    if (!visited[i]) bfs(i)
 
 void bfs(i)
   visited[i] = true
