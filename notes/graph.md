@@ -22,7 +22,7 @@ dfs(i)
   visited[i] = true;
   for (vertex j : adjacencyList[i])
     if (!visited[j]) dfs(j)
-+  postorderStack.push(i)
++ postorderStack.push(i)
 ```
 ## Breadth First Search (BFS)
 ```
