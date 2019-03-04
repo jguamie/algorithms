@@ -79,16 +79,16 @@ void dfs(i)
     if (!visited[j]) dfs(j)
 ```
 ### Directed Acyclic Graph (DAG) Check
-If `isCyclic` is true, this graph is not a DAG.
+If a graph has a cycle, it is not a DAG.
 ``` diff
 void main()
-+ isCyclic = false
++ isDag = true
   for (vertex i : graph)
 -   if (!visited[i]) dfs(i)
-+   if (cyclic(i)) isCyclic = true
++   if (isCyclic(i)) isDag = false
 
 -void bfs(i)
-+boolean cyclic(i)
++boolean isCyclic(i)
 + if (cycle[i]) return true
 + if (visited[i]) return false
 + cycle[i] = true
