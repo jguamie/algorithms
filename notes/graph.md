@@ -2,11 +2,11 @@
 A majority of graph algorithms are derivatives of Depth First Search (DFS) or Breadth First Search (BFS).
 ## Depth First Search (DFS)
 ```
-main()
+void main()
   for (vertex i : graph)
     if (!visited[i]) dfs(i)
 
-dfs(i)
+void dfs(i)
   visited[i] = true;
   for (vertex j : adjacencyList[i])
     if (!visited[j]) dfs(j)
@@ -14,14 +14,14 @@ dfs(i)
 ## Algorithms from DFS
 ### Directed Acyclic Graph (DAG) Check
 ``` diff
-main()
+void main()
   for (vertex i : graph)
 -   if (!visited[i]) dfs(i)
 +   if (dfs(i)) return true
 + return false
 
 // dfs returns true if cycle is present, otherwise returns false
-dfs(i)
+boolean dfs(i)
 + if (cycle[i]) return true
 + if (visited[i]) return false
 + cycle[i] = true
@@ -34,11 +34,11 @@ dfs(i)
 ```
 ### Topological Sort
 ``` diff
-main()
+void main()
   for (vertex i : graph)
     if (!visited[i]) dfs(i)
 
-dfs(i)
+void dfs(i)
   visited[i] = true;
   for (vertex j : adjacencyList[i])
     if (!visited[j]) dfs(j)
@@ -46,11 +46,11 @@ dfs(i)
 ```
 ## Breadth First Search (BFS)
 ```
-main()
+void main()
   for (vertex i : graph)
     if (!visited[i]) bfs(i)
 
-bfs(i)
+void bfs(i)
   visited[i] = true;
   queue.offer(i)
   while (!queue.isEmpty())
