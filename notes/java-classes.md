@@ -80,6 +80,15 @@ long y = (long)x;
 * `static String valueOf(char[] data)` Returns the string representation of the char array argument.
 * `static String valueOf(int i)` Returns the string representation of the int argument.
   * `valueOf` also applies to boolean, char, double, float, long, short.
+## Math
+* `static int abs(int a)` Returns the absolute value of an int value.
+  * `abs` also applies to double, float, long.
+* `static int max(int a, int b)` Returns the greater of two int values.
+  * `max` also applies to double, float, long.
+* `static int min(int a, int b)` Returns the smaller of two int values.
+  * `min` also applies to double, float, long.
+* `static double pow(double a, double b)` Returns the value of the first argument raised to the power of the second argument.
+* `static double sqrt(double a)` Returns the correctly rounded positive square root of a double value.
 ## Pair
 * `Pair(K key, V value)` Creates a new pair.
 * `K getKey()` Gets the key for this pair.
