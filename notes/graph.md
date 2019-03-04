@@ -11,6 +11,19 @@ dfs(i)
   for (vertex j : adjacencyList[i])
     if (!visited[j]) dfs(j)
 ```
+## Algorithms from DFS
+### Topological Sort
+``` diff
+main()
+  for (vertex i : graph)
+    if (!visited[i]) dfs(i)
+
+dfs(i)
+  visited[i] = true;
+  for (vertex j : adjacencyList[i])
+    if (!visited[j]) dfs(j)
++  postorderStack.push(i)
+```
 ## Breadth First Search (BFS)
 ```
 main()
