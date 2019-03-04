@@ -16,9 +16,9 @@ void bfs(i)
         visited[k] = true
         queue.add(k)
 ```
-## Algorithms from BFS
+## Algorithms Based on BFS
 ### Shortest Path
-```
+``` diff
 void main()
   for (vertex i : graph)
     if (!visited[i])
@@ -47,7 +47,7 @@ void dfs(i)
   for (vertex j : adjacencyList[i])
     if (!visited[j]) dfs(j)
 ```
-## Algorithms from DFS
+## Algorithms Based on DFS
 ### Bipartite
 ``` diff
 void main()
