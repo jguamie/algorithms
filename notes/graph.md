@@ -13,7 +13,7 @@ void dfs(i)
 ```
 ## Algorithms from DFS
 ### Bipartite
-```
+``` diff
 void main()
 + isBipartite = true
   for (vertex i : graph)
@@ -30,7 +30,7 @@ void dfs(i)
 ```
 ### Connected Components
 Connected components will have the same `id`.
-```
+``` diff
 void main()
   for (vertex i : graph)
     if (!visited[i]) dfs(i)
