@@ -84,10 +84,11 @@ void dfs(i)
 void main()
   for (vertex i : graph)
 -   if (!visited[i]) dfs(i)
-+   if (dfs(i)) return true
++   if (isCyclic(i)) return true
 + return false
 
-boolean isCyclic(i)
+-void bfs(i)
++boolean isCyclic(i)
 + if (cycle[i]) return true
 + if (visited[i]) return false
 + cycle[i] = true
