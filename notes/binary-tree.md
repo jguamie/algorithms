@@ -19,6 +19,3 @@ Post-order evaluates in Left, Right, Node order.
 1. Traverse the left subtree, i.e., call Postorder(left-subtree)
 1. Traverse the right subtree, i.e., call Postorder(right-subtree)
 1. Visit the node.
-### Breadth First (Level Order) Traversal
-* TODO
-
