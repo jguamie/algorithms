@@ -43,6 +43,7 @@
 ## Graphs
 * [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 * [Graph Search, DFS and BFS (YouTube)](https://youtu.be/zaBhtODEL0w)
+* [Graphs - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md)
 * [Solve 'Shortest Reach' Using BFS - Gayle McDowell (YouTube)](https://youtu.be/0XgVhsMOcQM)
 * [Solve 'Connected Cells' Using DFS - Gayle McDowell (YouTube)](https://youtu.be/R4Nh-EgWjyQ)
 * [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
