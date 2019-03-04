@@ -81,7 +81,8 @@ void dfs(i)
 ### Directed Acyclic Graph (DAG) Check
 `dfs` returns true if cycle is present, otherwise returns false
 ``` diff
-void main()
+-void main()
++boolean main()
   for (vertex i : graph)
 -   if (!visited[i]) dfs(i)
 +   if (isCyclic(i)) return true
