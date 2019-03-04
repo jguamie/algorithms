@@ -79,6 +79,7 @@ void dfs(i)
     if (!visited[j]) dfs(j)
 ```
 ### Directed Acyclic Graph (DAG) Check
+If `isCyclic` is true, this graph is not a DAG.
 ``` diff
 void main()
 + isCyclic = false
