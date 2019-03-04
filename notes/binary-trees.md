@@ -1,5 +1,5 @@
-# Binary Tree (BT) Notes
-A "leaf node" has no subtrees, otherwise it is an "internal" node.
+# Binary Trees (BT)
+A "leaf node" has no subtrees, otherwise it is an "internal" node. Binary trees should not be confused with [B-trees](https://en.wikipedia.org/wiki/B-tree).
 ## Binary Search Tree (BST)
 A "binary search tree" (BST) is also known as a "ordered binary tree." Elements to the left are less-or-equal (<=) to a given node. Elements to the right are greater (>) to the node.
 ## Traversals
