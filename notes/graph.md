@@ -1,4 +1,4 @@
-# Graph Notes
+# Graphs
 A majority of graph algorithms are derivatives of Breadth First Search (BFS) or Depth First Search (DFS).
 ## Breadth First Search (BFS)
 ```
