@@ -62,8 +62,10 @@
 * Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
 ## Mock Interviews
 * Practice with at least 7 coding mock interviews.
-  * [Technical Mock Interview](https://www.techmockinterview.com/). This is a paid service with high quality interviewers with detailed feedback.
-  * [interviewing.io](https://interviewing.io/). This is a free service. The quality isn't as great as the paid one.
+  * [Technical Mock Interview](https://www.techmockinterview.com/)
+   * This is a paid service with high quality interviewers with detailed feedback.
+  * [interviewing.io](https://interviewing.io/)
+   * This is a free service. The quality is not as high as Technical Mock Interview.
 # Resources
 * [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
@@ -73,3 +75,4 @@
 * [GeeksforGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
 * [GeeksforGeeks - Graph Data Structure And Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 * [Technical Mock Interview](https://www.techmockinterview.com/)
+* [interviewing.io](https://interviewing.io/)
