@@ -7,7 +7,7 @@ void mergeSort(array, left, right)
    if (left < right)
       middle = (left + right) / 2
       mergeSort(array, left, middle)
-      mergeSort(array, middle + left, right)
+      mergeSort(array, middle + 1, right)
       merge(array, left, middle, right)
 ```
 ## Quick Sort
