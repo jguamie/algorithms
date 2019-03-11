@@ -1,7 +1,6 @@
 # Sorts
 ## Merge Sort
-Time complexity: O(n log n) for worst, average and best case.
-
+Time complexity: O(n log n) for worst, average and best case.<br/>
 Space complexity: O(n)
 ```
 void mergeSort(array, left, right)
@@ -15,10 +14,8 @@ void merge(array, left, middle, right)
    \\ merge the two arrays
 ```
 ## Quick Sort
-Time complexity: O(n log n) for average and best case. O(n<sup>2</sup>) for worst case.
-
-Space complexity: O(log n) for in-place.
-
+Time complexity: O(n log n) for average and best case. O(n<sup>2</sup>) for worst case.<br/>
+Space complexity: O(log n) for in-place.<br/>
 `pi` is the partitioning index.
 ```
 void quickSort(array, low, high)
