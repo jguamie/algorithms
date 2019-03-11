@@ -19,13 +19,14 @@
 * [LeetCode Google Problems](https://leetcode.com/company/google/) 1-3, 5
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google.png)
 ### Linked Lists
-* [Stanford Library - Linked List](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
 * [Week 2: Stacks and Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Stanford Library - Linked List](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 ### Binary Trees
-* [Stanford Library - Binary Tree](http://cslibrary.stanford.edu/110/BinaryTrees.html)
 * [Week 5: Binary Search Trees - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Stanford Library - Binary Tree](http://cslibrary.stanford.edu/110/BinaryTrees.html)
+* [Binary Trees - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/binary-trees.md)
 * [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 94-96, 98-100
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 54, 56, 66
