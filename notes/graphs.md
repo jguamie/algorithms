@@ -81,25 +81,26 @@ void dfs(i)
 ### Directed Acyclic Graph (DAG) Check
 If a graph has a cycle, it is not a DAG.
 ``` diff
-void main()
-+ isDag = true
-  for (vertex i : graph)
--   if (!visited[i]) dfs(i)
-+   if (isCyclic(i)) isDag = false
+ void main()
++  isDag = true
+   for (vertex i : graph)
+-    if (!visited[i]) dfs(i)
++    if (isCyclic(i)) isDag = false
 
 -void bfs(i)
 +boolean isCyclic(i)
-+ if (cycle[i]) return true
-+ if (visited[i]) return false
-+ cycle[i] = true
-  visited[i] = true
-  for (vertex j : adjacencyList[i])
--   if (!visited[j]) dfs(j)
-+   if (isCyclic(j)) return true
-+ cycle[i] = false
-+ return false
++  if (cycle[i]) return true
++  if (visited[i]) return false
++  cycle[i] = true
+   visited[i] = true
+   for (vertex j : adjacencyList[i])
+-    if (!visited[j]) dfs(j)
++    if (isCyclic(j)) return true
++  cycle[i] = false
++  return false
 ```
 ### Topological Sort
+Only directed acyclic graphs (DAGs) can be sorted topologically.
 `postorderStack` will contain the topological sort order.
 ``` diff
 void main()
