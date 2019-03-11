@@ -14,7 +14,7 @@ void merge(array, left, middle, right)
    \\ merge the two arrays
 ```
 ## Quick Sort
-Time complexity: O(n log n) for average and best case. O(n<super>2</super>) for worst case.
+Time complexity: O(n log n) for average and best case. O(n<sup>2</sup>) for worst case.
 Space complexity: O(log n) for in-place.
 `pi` is the partitioning index.
 ```
