@@ -4,7 +4,7 @@ A "leaf node" has no subtrees, otherwise it is an "internal" node. Binary trees 
 A "binary search tree" (BST) is also known as a "ordered binary tree." Elements to the left are less-or-equal (<=) to a given node. Elements to the right are greater (>) to the node.
 ## Depth First Traversals
 ### Pre-Order Traversal (NLR)
-Pre-order evaluates in Node, Left, Right order.
+Pre-order traversal evaluates nodes in Node, Left, Right order.
 ```
 void main()
   preOrder(root)
@@ -16,7 +16,7 @@ void preOrder(node)
   preOrder(node.right)
 ```
 ### In-Order Traversal (LNR)
-In-order evaluates in Left, Node, Right order.
+In-order traversal evaluates nodes in Left, Node, Right order.
 ```
 void main()
   inOrder(root)
@@ -28,7 +28,7 @@ void inOrder(node)
   inOrder(node.right)
 ```
 ### Post-Order Traversal (LRN)
-Post-order evaluates in Left, Right, Node order.
+Post-order traversal evaluates nodes in Left, Right, Node order.
 ```
 void main()
   postOrder(root)
@@ -41,6 +41,7 @@ void postOrder(node)
 ```
 ## Breadth First Traversals
 ### Level-Order Traversal
+Level order traversal evaluates nodes at each height/level, starting with the root node.
 ```
 void levelOrder()
   queue.offer(root)
