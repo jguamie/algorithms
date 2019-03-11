@@ -2,20 +2,52 @@
 A "leaf node" has no subtrees, otherwise it is an "internal" node. Binary trees should not be confused with [B-trees](https://en.wikipedia.org/wiki/B-tree).
 ## Binary Search Tree (BST)
 A "binary search tree" (BST) is also known as a "ordered binary tree." Elements to the left are less-or-equal (<=) to a given node. Elements to the right are greater (>) to the node.
-## Traversals
-### Depth First Traversals
-#### Pre-Order (NLR)
+## Depth First Traversals
+### Pre-Order (NLR)
 Pre-order evaluates in Node, Left, Right order.
-1. Visit the node.
-1. Traverse the left subtree, i.e., call Preorder(left-subtree)
-1. Traverse the right subtree, i.e., call Preorder(right-subtree) 
-#### In-Order (LNR)
+```
+void main()
+  preOrder(root)
+
+void preOrder(node)
+  if (node == null) return
+  doSomething(node)
+  preOrder(node.left)
+  preOrder(node.right)
+```
+### In-Order (LNR)
 In-order evaluates in Left, Node, Right order.
-1. Traverse the left subtree, i.e., call Inorder(left-subtree)
-1. Visit the node.
-1. Traverse the right subtree, i.e., call Inorder(right-subtree)
-#### Post-order (LRN)
+```
+void main()
+  inOrder(root)
+
+void inOrder(node)
+  if (node == null) return
+  inOrder(node.left)
+  doSomething(node)
+  inOrder(node.right)
+```
+### Post-Order (LRN)
 Post-order evaluates in Left, Right, Node order.
-1. Traverse the left subtree, i.e., call Postorder(left-subtree)
-1. Traverse the right subtree, i.e., call Postorder(right-subtree)
-1. Visit the node.
+```
+void main()
+  postOrder(root)
+
+void postOrder(node)
+  if (node == null) return
+  postOrder(node.left)
+  postOrder(node.right)
+  doSomething(node)
+```
+## Breadth First Traversals
+### Level-Order Traversal
+```
+void levelOrder()
+  queue.offer(root)
+  while (!queue.isEmpty())
+    node = queue.poll()
+    if (node.left != null)
+      queue.offer(node.left)
+    if (node.right != null)
+      queue.offer(node.right)
+```
