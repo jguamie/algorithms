@@ -87,7 +87,7 @@ If a graph has a cycle, it is not a DAG.
 -      if (!visited[i]) dfs(i)
 +      if (isCyclic(i)) isDag = false
 
--void bfs(i)
+-void dfs(i)
 +boolean isCyclic(i)
 +   if (cycle[i]) return true
 +   if (visited[i]) return false
