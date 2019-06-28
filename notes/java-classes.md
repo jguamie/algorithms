@@ -89,6 +89,8 @@ long y = (long)x;
   * `min` also applies to double, float, long.
 * `static double pow(double a, double b)` Returns the value of the first argument raised to the power of the second argument.
 * `static double sqrt(double a)` Returns the correctly rounded positive square root of a double value.
+## Hash Code
+* `int hashCode()` Returns a hash code value for an object.
 ## Pair
 * `Pair(K key, V value)` Creates a new pair.
 * `K getKey()` Gets the key for this pair.
