@@ -33,16 +33,16 @@ Space complexity: O(log n) for in-place.<br/>
 void quickSort(array, lo, hi)
    if (lo < hi)
       int pi = partition(array, lo, hi)
-      quickSort(array, lo, pi - 1) 
+      quickSort(array, lo, pi - 1)
       quickSort(array, pi + 1, hi)
-      
+
 int partition(array, lo, hi)
-   int pivot = array[hi] 
-   int i = lo - 1 
-   for (int j = lo; j < hi; j++) 
-      if (array[j] <= pivot)  
-         i++ 
+   int pivot = array[hi]
+   int i = lo
+   for (int j = lo; j < hi; j++)
+      if (array[j] <= pivot)
          swap(array[i], array[j])
-   swap(array[i + 1], array[hi])  
-   return i + 1
+         i++
+   swap(array[i], array[hi])
+   return i
 ```
