@@ -5,7 +5,7 @@ These prerequisites are for Java interviewees only. Move onto the next section i
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 ## Practice
 ### Mock Interviews
-Practicing with mock interviews is mandatory. I cannot stress this enough. You must do at least 10 coding mock interviews. You will not pass a difficult Google-level coding interview without practice & live feedback.
+Practicing with mock interviews is mandatory. I cannot stress this enough. You must do at least 10 coding mock interviews. You will not pass a difficult Google-level coding interview without practice and live feedback.
 * [Technical Mock Interview](https://www.techmockinterview.com/)
   * This is a paid service with high quality interviewers from Google and Amazon with detailed verbal and written feedback. I strongly recommend doing at least 5 mocks through here.
 * [interviewing.io](https://interviewing.io/)
