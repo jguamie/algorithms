@@ -1,6 +1,6 @@
 # Algorithms Notes
 ## Prerequisites
-These prerequisites are for Java interviewees only. Move onto the next section if you're prepping in a different language.
+These prerequisites are for Java interviewees only. Move onto the next section if you're prepping in a different language. If you're not decided on the language yet, I strongly recommend Java as all the best prep resources out there use Java.
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 ## Practice
