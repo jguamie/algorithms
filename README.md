@@ -2,6 +2,15 @@
 ## Prerequisites
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
+## Practice
+### Mock Interviews
+Practicing with mock interviews is mandatory. I cannot stress this enough. You must do at least 10 coding mock interviews. You will not pass a difficult Google-level coding interview without practice & live feedback.
+* [Technical Mock Interview](https://www.techmockinterview.com/)
+  * This is a paid service with high quality interviewers from Google and Amazon with detailed verbal and written feedback. I strongly recommend doing at least 5 mocks through here.
+* [interviewing.io](https://interviewing.io/)
+  * This is a free service. It is a hiring platform where it will connect you with potential employers if you pass enough interviews. The quality of the feedback is subpar in comparison to Technical Mock Interview.
+* [pramp.com](https://www.pramp.com)
+  * This is a free service. It is a peer-to-peer mock interview platform. Another great resource if you're trying do do as many mocks as possible (30+).
 ## Recommended Order of Study
 ### Big O
 * For every algorithm, always understand the time and space complexity trade-offs (Big O).
@@ -63,12 +72,6 @@
 * [LeetCode Dynamic Programming Problems](https://leetcode.com/tag/dynamic-programming/)
 ### LeetCode Medium
 * Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
-### Mock Interviews
-* Practice with at least 7 coding mock interviews.
-* [Technical Mock Interview](https://www.techmockinterview.com/)
-  * This is a paid service with high quality interviewers with detailed feedback.
-* [interviewing.io](https://interviewing.io/)
-  * This is a free service. The quality is not as high as Technical Mock Interview.
 ## Resources
 * [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
