@@ -1,5 +1,6 @@
 # Algorithms Notes
 ## Prerequisites
+These prerequisites are for Java interviewees only. Move onto the next section if you're prepping in a different language.
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 ## Practice
