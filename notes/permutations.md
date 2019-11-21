@@ -2,9 +2,8 @@
 
 ## All possible permutations (n!)
 ```
- void main()
-    for (vertex i : graph)
-       if (!visited[i]) bfs(i)
+ void main(array)
+    backtrack(array, 0, array.length - 1) 
 
  void backtrack(array l r)
     if l == r result.add(array)
