@@ -53,6 +53,8 @@ Practicing with mock interviews is mandatory. I cannot stress this enough. You m
 ![leetcode-heap-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-heap.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
+### LeetCode - Easy
+* Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
 * [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 * [Graph Search, DFS and BFS - Gayle McDowell (YouTube)](https://youtu.be/zaBhtODEL0w)
@@ -67,12 +69,18 @@ Practicing with mock interviews is mandatory. I cannot stress this enough. You m
 ### More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 ### Dynamic Programming
+* Get comfortable with permutations versus combinations. 
+  * [Permutations Recursion](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
+  * [Combinations Recursion with Backtracking](https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/)
 * [Memoization and Dynamic Programming - Gayle McDowell (YouTube)](https://youtu.be/P8Xa2BitN3I)
 * [Solve 'Recursive Staircase' Using Recursion - Gayle McDowell (YouTube)](https://youtu.be/eREiwuvzaUM)
 * [Solve 'Coin Change' Using Memoization and DP - Gayle McDowell (YouTube)](https://youtu.be/sn0DWI-JdNA)
+### More Dynamic Programming
 * [LeetCode Dynamic Programming Problems](https://leetcode.com/tag/dynamic-programming/)
-### LeetCode Medium
-* Review with [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
+### LeetCode - Google Interview
+* Complete all of the [LeetCode Get Well Prepared for Google Interview Questions](https://leetcode.com/explore/featured/card/google/)
+### LeetCode - Medium
+* Review with the [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
 ## Resources
 * [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
