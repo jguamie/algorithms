@@ -69,7 +69,7 @@ Practicing with mock interviews is mandatory. I cannot stress this enough. You m
 ### More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 ### Dynamic Programming
-* Get comfortable with permutations versus combinations. 
+* Get very comfortable with permutations, combinations, and backtracking. 
   * [Permutations Recursion](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
   * [Combinations Recursion with Backtracking](https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/)
 * [Memoization and Dynamic Programming - Gayle McDowell (YouTube)](https://youtu.be/P8Xa2BitN3I)
