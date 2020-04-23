@@ -21,7 +21,7 @@ Mock interview resources:
 * [pramp.com](https://www.pramp.com)
   * This is a free service. It is a peer-to-peer mock interview platform. Another great resource if you're trying do do as many mocks as possible.
 * Friends and colleagues
-  * Find other engineers to practice with. Start an interview club with your friends.
+  * Find other engineers to practice with. Start an interview club with your friends. Meet weekly to go through videos and coding exercises together.
 * Mentor
   * Find a mentor. Reach out to people you respect and ask them to meet with you regularly to build a mentoring relationship.
 ## Recommended Order of Study
