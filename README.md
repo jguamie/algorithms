@@ -1,4 +1,4 @@
-# Preparing for the Coding Interview
+# Preparing for the Google Coding Interview
 ## Prerequisites
 These prerequisites are for Java interviewees only. Move onto the next section if you're prepping in a different language. If you have not decided on a language just yet, I strongly recommend Java as the best prep resources are in Java.
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
