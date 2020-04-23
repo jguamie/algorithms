@@ -7,7 +7,7 @@ These prerequisites are for Java interviewees only. Move onto the next section i
 **Important Note:** Once you are in for an interview, your interview performance is more important than your educational/work background. We hire engineers with zero degree and only a couple years of experience at ***the same exact level*** as engineers with many years of experience and a master's degree in Computer Science all the time.
 ## Practice
 ### Mock Interviews
-Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode alone is not enough! The actual coding aspect of the interview should only consist of about 15 minutes of a 45-minute Google interview. You will not pass a difficult Google-level coding interview without practice and live feedback!
+Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through a potential solution and trade-offs between various approaches before you even start coding. After you're done coding, you need to walk through test cases manually. You will not pass a difficult Google-level coding interview without interview practice and live feedback.
 If you are an experienced software engineer and a top performer at your current employer:
 * 20+ mock interviews is solid for getting leveled at L4+ by Google. At L5+, you are also required to succeed at [System Design interviews](https://github.com/jguamie/system-design).
 * 15 mock interviews is great too but a little luck is involved.
