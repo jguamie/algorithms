@@ -5,6 +5,7 @@ These prerequisites are for Java interviewees only. Move onto the next section i
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 
 **Important Note:** Once you are in for an interview, your interview performance is more important than your educational/work background. We hire engineers with zero degree and only a couple years of experience at ***the same exact level*** as engineers with many years of experience and a master's degree in Computer Science all the time.
+**Another Important Note:** Your work projects and work experience provide you with expertise in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to attain expertise in data structures and algorithms. Coding interviews are a learned skill and require a lot of practice and studying outside of your job duties.
 ## Practice
 ### Mock Interviews
 Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through a potential solution and trade-offs between various approaches before you even start coding. After you're done coding, you need to walk through test cases manually. You will not pass a difficult Google-level coding interview without interview practice and live feedback.
@@ -65,6 +66,7 @@ Mock interview resources:
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
 ### LeetCode - Easy
+Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Difficult problems. Also, going through a high volume of Easy problems are essential with building your coding speed.
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
 You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized these [core graph algorithms](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md).
