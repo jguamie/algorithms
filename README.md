@@ -13,13 +13,17 @@ If you are an experienced software engineer and a top performer at your current 
 * 15 mock interviews is great too but a little luck is involved.
 * 10- mock interviews is possible. You're relying on a lot of luck and even if you pass, you're more likely to get leveled at L3 (Google's starting level).
 
-The mock interview services I've used:
+Mock interview resources:
 * [Technical Mock Interview](https://www.techmockinterview.com/)
   * This is a paid service with high quality interviewers from Google and Amazon with detailed verbal/written feedback and personalized coaching. I strongly recommend doing at least 10 mocks through here.
 * [interviewing.io](https://interviewing.io/)
   * This is a free service. It is a hiring platform where it will connect you with potential employers if you pass enough interviews. The quality of the feedback is subpar in comparison to Technical Mock Interview.
 * [pramp.com](https://www.pramp.com)
   * This is a free service. It is a peer-to-peer mock interview platform. Another great resource if you're trying do do as many mocks as possible.
+* Friends and colleagues
+  * Find other engineers to practice with. Start an interview club with your friends.
+* Mentor
+  * Find a mentor. Reach out to people you respect and ask them to meet with you regularly to build a mentoring relationship.
 ## Recommended Order of Study
 ### Big O
 * For every algorithm, always understand the time and space complexity trade-offs (Big O).
