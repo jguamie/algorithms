@@ -5,13 +5,17 @@ These prerequisites are for Java interviewees only. Move onto the next section i
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 ## Practice
 ### Mock Interviews
-Practicing with mock interviews is mandatory. I cannot stress this enough. You must do at least 10 coding mock interviews. You will not pass a difficult Google-level coding interview without practice and live feedback.
+Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode alone is not enough! The actual coding aspect of the interview should only consist of about 15 minutes of a 45-minute Google interview. You will not pass a difficult Google-level coding interview without practice and live feedback!
+If you are an experienced software engineer and a top performer at your current employer:
+* 20+ mock interviews is solid for getting leveled at L4+ by Google. At L5+, you are also required to succeed at [System Design interviews](https://github.com/jguamie/system-design).
+* 15 mock interviews is great too but a little luck is involved.
+* 10- mock interviews is possible. You're relying on a lot of luck and even if you pass, you're more likely to get leveled at L3 (Google's starting level).
 * [Technical Mock Interview](https://www.techmockinterview.com/)
-  * This is a paid service with high quality interviewers from Google and Amazon with detailed verbal/written feedback and personalized coaching. I strongly recommend doing at least 5 mocks through here.
+  * This is a paid service with high quality interviewers from Google and Amazon with detailed verbal/written feedback and personalized coaching. I strongly recommend doing at least 10 mocks through here.
 * [interviewing.io](https://interviewing.io/)
   * This is a free service. It is a hiring platform where it will connect you with potential employers if you pass enough interviews. The quality of the feedback is subpar in comparison to Technical Mock Interview.
 * [pramp.com](https://www.pramp.com)
-  * This is a free service. It is a peer-to-peer mock interview platform. Another great resource if you're trying do do as many mocks as possible (30+).
+  * This is a free service. It is a peer-to-peer mock interview platform. Another great resource if you're trying do do as many mocks as possible.
 ## Recommended Order of Study
 ### Big O
 * For every algorithm, always understand the time and space complexity trade-offs (Big O).
