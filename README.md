@@ -94,8 +94,6 @@ Unless you're interviewing for an entry-level L3 position, you should expect to 
 ### LeetCode - Google Interview
 This section is absolutely required. Do not skip any of these problems.
 * Complete all of the [LeetCode Get Well Prepared for Google Interview Questions](https://leetcode.com/explore/featured/card/google/)
-### LeetCode - Medium
-* Review with the [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
 ## Resources
 * [Algorithms, Part I - Princeton University](https://www.coursera.org/learn/algorithms-part1)
 * [Algorithms, Part II - Princeton University](https://www.coursera.org/learn/algorithms-part2)
