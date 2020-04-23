@@ -3,6 +3,8 @@
 These prerequisites are for Java interviewees only. Move onto the next section if you're prepping in a different language. If you have not decided on a language just yet, I strongly recommend Java as the best prep resources are in Java.
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
+
+**Important Note:** Once you are in for an interview, your interview performance is more important than your educational/work background. We hire engineers with zero degree and only a couple years of experience at ***the same exact level*** as engineers with many years of experience and a master's degree in Computer Science all the time.
 ## Practice
 ### Mock Interviews
 Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode alone is not enough! The actual coding aspect of the interview should only consist of about 15 minutes of a 45-minute Google interview. You will not pass a difficult Google-level coding interview without practice and live feedback!
