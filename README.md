@@ -76,8 +76,6 @@ You should expect to get asked a couple graph questions at Google. Don't bother 
 * [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
 * [LeetCode Graph Problems](https://leetcode.com/tag/graph/) 133, 207, 210, 261, 269, 310, 323
 ![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
-* [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 228, 231, 240
-![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-6.png)
 ### More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 ### Dynamic Programming
