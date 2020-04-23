@@ -5,6 +5,7 @@ These prerequisites are for Java interviewees only. Move onto the next section i
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 
 **Important Note:** Once you are in for an interview, your interview performance is more important than your educational/work background. We hire engineers with zero degree and only a couple years of experience at ***the same exact level*** as engineers with many years of experience and a master's degree in Computer Science all the time.
+
 **Another Important Note:** Your work projects and work experience provide you with expertise in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to attain expertise in data structures and algorithms. Coding interviews are a learned skill and require a lot of practice and studying outside of your job duties.
 ## Practice
 ### Mock Interviews
