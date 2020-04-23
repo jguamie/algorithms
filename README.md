@@ -41,7 +41,6 @@ The mock interview services I've used:
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 ### Binary Trees
-* [Week 5: Binary Search Trees - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * [Stanford Library - Binary Tree](http://cslibrary.stanford.edu/110/BinaryTrees.html)
 * [Binary Trees - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/binary-trees.md)
 * [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 94-96, 98-100
@@ -62,6 +61,7 @@ The mock interview services I've used:
 ### LeetCode - Easy
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
+You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized these [core graph algorithms](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md).
 * [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 * [Graph Search, DFS and BFS - Gayle McDowell (YouTube)](https://youtu.be/zaBhtODEL0w)
 * [Graphs - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md)
@@ -75,6 +75,7 @@ The mock interview services I've used:
 ### More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 ### Dynamic Programming
+Unless you're interviewing for an entry-level position, you should expect to get asked a couple dynamic programming questions at Google. These are extremely difficult and require a lot of practice to get down. 
 * Get very comfortable with permutations, combinations, and backtracking. 
   * [Permutations Recursion](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
   * [Combinations Recursion with Backtracking](https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/)
@@ -84,6 +85,7 @@ The mock interview services I've used:
 ### More Dynamic Programming
 * [LeetCode Dynamic Programming Problems](https://leetcode.com/tag/dynamic-programming/)
 ### LeetCode - Google Interview
+This section is absolutely required. Do not skip any of these problems.
 * Complete all of the [LeetCode Get Well Prepared for Google Interview Questions](https://leetcode.com/explore/featured/card/google/)
 ### LeetCode - Medium
 * Review with the [LeetCode Medium Collection](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
