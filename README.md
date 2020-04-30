@@ -17,7 +17,7 @@ If you are an experienced software engineer and a top performer at your current 
 
 Mock interview resources:
 * [Technical Mock Interview](https://www.techmockinterview.com/)
-  * This is a paid service with high quality interviewers from Google and Amazon with detailed verbal/written feedback and personalized coaching. I strongly recommend doing at least 10 mocks through here.
+  * This is a paid service with high quality interviewers from Google, Facebook, and Amazon with detailed verbal/written feedback and personalized coaching. I strongly recommend doing at least 10 mocks through here.
 * [interviewing.io](https://interviewing.io/)
   * This is a free service. It is a hiring platform where it will connect you with potential employers if you pass enough interviews. The quality of the feedback is subpar in comparison to Technical Mock Interview.
 * [pramp.com](https://www.pramp.com)
