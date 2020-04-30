@@ -89,8 +89,9 @@ Unless you're interviewing for an entry-level L3 position, you should expect to 
 * [Memoization and Dynamic Programming - Gayle McDowell (YouTube)](https://youtu.be/P8Xa2BitN3I)
 * [Solve 'Recursive Staircase' Using Recursion - Gayle McDowell (YouTube)](https://youtu.be/eREiwuvzaUM)
 * [Solve 'Coin Change' Using Memoization and DP - Gayle McDowell (YouTube)](https://youtu.be/sn0DWI-JdNA)
-### More Dynamic Programming
 * [LeetCode Dynamic Programming Problems](https://leetcode.com/tag/dynamic-programming/)
+### More Dynamic Programming
+* [GeeksforGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
 ### LeetCode - Google Interview
 This section is absolutely required. Do not skip any of these problems.
 * Complete all of the [LeetCode Get Well Prepared for Google Interview Questions](https://leetcode.com/explore/featured/card/google/)
