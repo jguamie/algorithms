@@ -11,8 +11,8 @@ These prerequisites are for Java interviewees only. Move onto the next section i
 ### Mock Interviews
 Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through potential solutions and trade-offs before you start coding. After you're done coding, you need to walk us through test cases. You will not pass a difficult Google-level coding interview without interview practice and live feedback.
 If you are an experienced software engineer and a top performer at your current employer:
-* 20+ mock interviews are solid for getting hired at L4+. At L5+, you are also required to succeed at [System Design interviews](https://github.com/jguamie/system-design).
-* 10- mock interviews is possible... You're relying on a lot of luck and even if you pass, you will most likely get hired at L-1.
+* At 20+ mock interviews, you have a very high chance of getting hired at L4+. At L5+, you are also required to succeed at [System Design interviews](https://github.com/jguamie/system-design).
+* At 10- mock interviews, you're relying on a lot of luck. Even if you pass, you will most likely get hired at L-1.
 
 Mock interview resources:
 * [Technical Mock Interview](https://www.techmockinterview.com/)
