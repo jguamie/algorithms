@@ -1,19 +1,18 @@
 # Preparing for the Google Coding Interview
 ## Prerequisites
-These prerequisites are for Java interviewees only. Move onto the next section if you're prepping in a different language. If you have not decided on a language just yet, I strongly recommend Java as the best prep resources are in Java.
+These prerequisites are for Java interviewees only. Move onto the next section if you're prepping with a different programming language. If you have not decided on a language just yet, I strongly recommend Java as the most popular prep resources use Java.
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 
-**Important Note:** Once you are in for an interview, your interview performance is more important than your educational/work background. We hire engineers with zero degree and only a couple years of experience at ***the same exact level*** as engineers with many years of experience and a master's degree in Computer Science all the time.
+**Important Note:** Once it has been decided we are bringing you in for interviews, your interview performance is much more critical than your educational/work background. We hire engineers with no college degrees and only a couple years of experience at ***the same exact level*** as engineers with many years of experience and a master's degree in Computer Science all the time.
 
-**Another Important Note:** Your work projects and work experience provide you with expertise in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to attain expertise in data structures and algorithms. Coding interviews are a learned skill and require a lot of practice and studying outside of your job duties.
+**Important Note for Industry Hires:** Your projects and work experience develop your skills in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to become proficient in data structures and algorithms. Coding interviews are a learned skill. It requires a lot of practice and studying outside of your job responsibilities.
 ## Practice
 ### Mock Interviews
-Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through a potential solution and trade-offs between various approaches before you even start coding. After you're done coding, you need to walk through test cases manually. You will not pass a difficult Google-level coding interview without interview practice and live feedback.
+Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through potential solutions and trade-offs before you start coding. After you're done coding, you need to walk us through test cases. You will not pass a difficult Google-level coding interview without interview practice and live feedback.
 If you are an experienced software engineer and a top performer at your current employer:
-* 20+ mock interviews is solid for getting leveled at L4+ by Google. At L5+, you are also required to succeed at [System Design interviews](https://github.com/jguamie/system-design).
-* 15 mock interviews is great too but a little luck is involved.
-* 10- mock interviews is possible. You're relying on a lot of luck and even if you pass, you're more likely to get leveled at L3 (Google's starting level).
+* 20+ mock interviews are solid for getting hired at L4+. At L5+, you are also required to succeed at [System Design interviews](https://github.com/jguamie/system-design).
+* 10- mock interviews is possible... You're relying on a lot of luck and even if you pass, you will most likely get hired at L-1.
 
 Mock interview resources:
 * [Technical Mock Interview](https://www.techmockinterview.com/)
