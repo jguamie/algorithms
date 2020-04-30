@@ -67,7 +67,7 @@ Mock interview resources:
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
 ### LeetCode - Easy
-Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Difficult problems. Also, going through a high volume of Easy problems are essential with building your coding speed.
+Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Hard problems. Also, going through a high volume of Easy problems will build your coding speed.
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
 You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized these [core graph algorithms](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md). Fortunately, a majority of graph coding problems can be solved using the DFS/BFS derivatives noted [here](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md).
