@@ -18,17 +18,18 @@ Mock interview resources:
 * [Technical Mock Interview](https://www.techmockinterview.com/)
   * This is a paid service with high quality interviewers from Google, Facebook, and Amazon with detailed verbal/written feedback and personalized coaching. I strongly recommend doing at least 10 mocks through here.
 * [interviewing.io](https://interviewing.io/)
-  * This is a free service. It is a hiring platform where it will connect you with potential employers if you pass enough interviews. The quality of the feedback is subpar in comparison to Technical Mock Interview.
+  * This is a free service. It is a hiring platform where it will connect you with potential employers if you pass enough interviews. The quality of feedback is poor in comparison to Technical Mock Interview.
 * [pramp.com](https://www.pramp.com)
-  * This is a free service. It is a peer-to-peer mock interview platform. Another great resource if you're trying do do as many mocks as possible.
+  * This is a free service. It is a peer-to-peer mock interview platform. Another great resource if you're trying to do as many mocks as possible.
 * Friends and colleagues
   * Find other engineers to practice with. Start an interview club with your friends. Meet weekly to go through videos and coding exercises together.
 * Mentor
   * Find a mentor. Reach out to people you respect and ask them to meet with you regularly to build a mentoring relationship.
 ## Recommended Order of Study
 ### Big O
-* For every algorithm, always understand the time and space complexity trade-offs (Big O).
+* For every algorithm, understand the time and space complexity (Big O).
 * [Chapter VI: Big O - Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+  * A lot of coding questions can be solved with various algorithms. Talking through the Big O of each is essential in trade-off discussions.
 ### Sorting
 * [Week 2: Elementary Sorts - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * [Week 3: Mergesort and Quicksort - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
@@ -69,7 +70,7 @@ Mock interview resources:
 Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Difficult problems. Also, going through a high volume of Easy problems are essential with building your coding speed.
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
-You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized these [core graph algorithms](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md).
+You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized these [core graph algorithms](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md). Fortunately, a majority of graph coding problems can be solved using the DFS/BFS derivatives noted [here](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md).
 * [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 * [Graph Search, DFS and BFS - Gayle McDowell (YouTube)](https://youtu.be/zaBhtODEL0w)
 * [Graphs - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md)
@@ -81,7 +82,7 @@ You should expect to get asked a couple graph questions at Google. Don't bother 
 ### More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 ### Dynamic Programming
-Unless you're interviewing for an entry-level L3 position, you should expect to get asked a couple dynamic programming questions at Google. These are extremely difficult and require a lot of practice to get down. 
+Unless you're interviewing for an entry-level L3 position, you should expect to get asked a couple dynamic programming questions at Google. These are difficult and require a lot of practice to get down. 
 * Get very comfortable with permutations, combinations, and backtracking. 
   * [Permutations Recursion](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
   * [Combinations Recursion with Backtracking](https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/)
