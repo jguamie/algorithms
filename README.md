@@ -1,12 +1,11 @@
 # Preparing for the Google Coding Interview
+Once it has been decided we are bringing you in for interviews, your interview performance is much more critical than your educational/work background. We hire engineers with no college degree and only a couple years of experience at ***a higher level*** than engineers with many years of experience and a master's degree in Computer Science all the time.
+## Important Note for Industry Hires
+Your projects and work experience develop your skills in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to become proficient in data structures and algorithms. Coding interviews are a learned skill. It requires a lot of practice and studying outside of your job responsibilities.
 ## Prerequisites
 These prerequisites are for Java interviewees only. Move onto the next section if you're prepping with a different programming language. If you have not decided on a language just yet, I strongly recommend Java as the most popular prep resources use Java.
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
-
-**Important Note:** Once it has been decided we are bringing you in for interviews, your interview performance is much more critical than your educational/work background. We hire engineers with no college degrees and only a couple years of experience at ***the same exact level*** as engineers with many years of experience and a master's degree in Computer Science all the time.
-
-**Important Note for Industry Hires:** Your projects and work experience develop your skills in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to become proficient in data structures and algorithms. Coding interviews are a learned skill. It requires a lot of practice and studying outside of your job responsibilities.
 ## Practice
 ### Mock Interviews
 Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through potential solutions and trade-offs before you start coding. After you're done coding, you need to walk us through test cases. You will not pass a difficult Google-level coding interview without interview practice and live feedback.
