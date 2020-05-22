@@ -44,7 +44,7 @@ Mock interview resources:
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google.png)
 ### Linked Lists
 * [Week 2: Stacks and Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
-* [Stanford Library - Linked List](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
+* [Stanford Library - Linked List](http://cslibrary.stanford.edu/105/LinkedListProblems.pdf)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 ### Binary Trees
