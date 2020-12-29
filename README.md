@@ -33,28 +33,32 @@ Mock interview resources:
 * [Solve '2Sum' Coding/Engineering Interview - How to: Work at Google (YouTube)](https://youtu.be/XKu_SEDAykw)
   * This is the flow and pacing of discussing a solution, coding, and testing that you should follow.
 * [Week 1: Analysis of Algorithms section - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
-  * Study and remember the common order-of-growth classifications.
-  * Study and memorize the binary search algorithm.
+  * Memorize order-of-growth classifications.
+  * Memorize the binary search algorithm. Many coding solutions are variations of binary search.
   * Skip over the Week 1: Union-Find section.
 * [LeetCode Binary Search Problems](https://leetcode.com/tag/binary-search/) 29, 33-35, 50, 69
 ![leetcode-binary-search-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-binary-search.png)
 ### Sorting
 * [Week 2: Elementary Sorts - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+  * Familiarize yourself with these basic sorts. Don't memorize them.
 * [Week 3: Mergesort and Quicksort - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
-* [Sorts - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/sorts.md)
+* [Recommended Mergesort and Quicksort Algorithms - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/sorts.md)
+  * Only memorize the mergesort algorithm. Many coding solutions are variations of mergsort.
 ### Arrays
 * [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
 ![leetcode-array-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array.png)
 * [LeetCode Google Problems](https://leetcode.com/company/google/) 1-3, 5
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google.png)
 ### Linked Lists
-* [Week 2: Stacks and Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * [Stanford Library - Linked List](http://cslibrary.stanford.edu/105/LinkedListProblems.pdf)
+* [Week 2: Stacks and Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 ### Binary Trees
 * [Stanford Library - Binary Tree](http://cslibrary.stanford.edu/110/BinaryTrees.html)
-* [Binary Trees - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/binary-trees.md)
+* [Week 4: Elementary Symbol Tables - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Recommended Binary Tree Algorithms - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/binary-trees.md)
+  * Memorize these binary tree algorithms.
 * [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 94-96, 98-100
 ![leetcode-tree-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-tree.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 54, 56, 66
@@ -70,14 +74,18 @@ Mock interview resources:
 ![leetcode-heap-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-heap.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
+### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* Skip all of Week 5
+* Study Week 6: Hash Tables section only
 ### LeetCode - Easy
 Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Hard problems. Also, going through a high volume of Easy problems will build your coding speed.
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
-You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized these [core graph algorithms](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md). Fortunately, a majority of graph coding problems can be solved using the DFS/BFS derivatives noted [here](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md).
+You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized graph algorithms. Also, get comfortable in recognizing when a problem requires a graph solution instead of a binary tree solution (and vice versa).
 * [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
+* [Recommended Graph Algorithms - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md)
+  * Memorize these graph algorithms. Graph solutions are usually variations of DFS and BFS.
 * [Graph Search, DFS and BFS - Gayle McDowell (YouTube)](https://youtu.be/zaBhtODEL0w)
-* [Graphs - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md)
 * [Solve 'Shortest Reach' Using BFS - Gayle McDowell (YouTube)](https://youtu.be/0XgVhsMOcQM)
 * [Solve 'Connected Cells' Using DFS - Gayle McDowell (YouTube)](https://youtu.be/R4Nh-EgWjyQ)
 * [Graph Data Structure And Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
@@ -96,6 +104,10 @@ Unless you're interviewing for an entry-level L3 position, you should expect to 
 * [LeetCode Dynamic Programming Problems](https://leetcode.com/tag/dynamic-programming/)
 ### More Dynamic Programming
 * [GeeksforGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* Skip all of Week 3
+* Study Week 4: Tries section only
+* Skip all of Week 5 and Week 6
 ### LeetCode - Google Interview
 This section is absolutely required. Do not skip any of these problems.
 * Complete all of the [LeetCode Get Well Prepared for Google Interview Questions](https://leetcode.com/explore/featured/card/google/)
