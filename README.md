@@ -78,7 +78,7 @@ Mock interview resources:
 * Skip all of Week 5.
 * Study Week 6: Hash Tables section only.
 ### LeetCode - Easy
-Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Hard problems. Also, going through a high volume of Easy problems will build your coding speed.
+Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Hard problems. Also, going through a high volume of Easy problems will increase your coding speed.
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
 You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized graph algorithms. Also, get comfortable in recognizing when a problem requires a graph solution instead of a binary tree solution (and vice versa).
