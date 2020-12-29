@@ -32,16 +32,16 @@ Mock interview resources:
 ### Binary Search
 * [Solve '2Sum' Coding/Engineering Interview - How to: Work at Google (YouTube)](https://youtu.be/XKu_SEDAykw)
   * This is the flow and pacing of discussing a solution, coding, and testing that you should follow.
-* [Week 1: Analysis of Algorithms section - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Week 1: Analysis of Algorithms section - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/1)
   * Memorize order-of-growth classifications.
   * Memorize the binary search algorithm. Many solutions are variations of binary search.
   * Skip Week 1: Union-Find section.
 * [LeetCode Binary Search Problems](https://leetcode.com/tag/binary-search/) 29, 33-35, 50, 69
 ![leetcode-binary-search-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-binary-search.png)
 ### Sorting
-* [Week 2: Elementary Sorts - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Week 2: Elementary Sorts - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/2)
   * Familiarize yourself with these basic sorts. Don't memorize them.
-* [Week 3: Mergesort and Quicksort - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Week 3: Mergesort and Quicksort - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 * [Recommended Mergesort and Quicksort Algorithms - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/sorts.md)
   * Only memorize the mergesort algorithm. Many solutions are variations of mergesort.
 ### Arrays
@@ -51,12 +51,12 @@ Mock interview resources:
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google.png)
 ### Linked Lists
 * [Stanford Library - Linked List](http://cslibrary.stanford.edu/105/LinkedListProblems.pdf)
-* [Week 2: Stacks and Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Week 2: Stacks and Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/2)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 17, 20, 22
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-2.png)
 ### Binary Trees
 * [Stanford Library - Binary Tree](http://cslibrary.stanford.edu/110/BinaryTrees.html)
-* [Week 4: Elementary Symbol Tables - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Week 4: Elementary Symbol Tables - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/4)
 * [Recommended Binary Tree Algorithms - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/binary-trees.md)
   * Memorize these binary tree algorithms.
 * [LeetCode Tree Problems](https://leetcode.com/tag/tree/) 94-96, 98-100
@@ -69,12 +69,12 @@ Mock interview resources:
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 155, 162, 173
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-4.png)
 ### Heaps
-* [Week 4: Priority Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+* [Week 4: Priority Queues - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/4)
 * [LeetCode Heap Problems](https://leetcode.com/tag/heap/) 23, 215, 218, 239, 253, 264, 295
 ![leetcode-heap-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-heap.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
-### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
+### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/6)
 * Skip all of Week 5.
 * Study Week 6: Hash Tables section only.
 ### LeetCode - Easy
@@ -82,7 +82,7 @@ Many LeetCode Medium and Difficult problems are advanced versions of Easy proble
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 ### Graphs
 You should expect to get asked a couple graph questions at Google. Don't bother interviewing if you haven't mastered and memorized graph algorithms. Also, get comfortable in recognizing when a problem requires a graph solution instead of a binary tree solution (and vice versa).
-* [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
+* [Week 1: Undirected Graphs and Directed Graphs - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2/home/week/1)
 * [Recommended Graph Algorithms - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/graphs.md)
   * Memorize these graph algorithms. Graph solutions are usually variations of DFS and BFS.
 * [Graph Search, DFS and BFS - Gayle McDowell (YouTube)](https://youtu.be/zaBhtODEL0w)
@@ -92,8 +92,8 @@ You should expect to get asked a couple graph questions at Google. Don't bother 
 * [LeetCode Graph Problems](https://leetcode.com/tag/graph/) 133, 207, 210, 261, 269, 310, 323
 ![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
 ### More Graphs
-* [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
-### Remainder of [Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
+* [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2/home/week/2)
+### Remainder of [Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
 * Skip all of Week 3.
 * Study Week 4: Tries section only.
 * Skip all of Week 5 and Week 6.
