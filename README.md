@@ -34,7 +34,7 @@ Mock interview resources:
   * This is the flow and pacing of discussing a solution, coding, and testing that you should follow.
 * [Week 1: Analysis of Algorithms section - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
   * Memorize order-of-growth classifications.
-  * Memorize the binary search algorithm. Many coding solutions are variations of binary search.
+  * Memorize the binary search algorithm. Many solutions are variations of binary search.
   * Skip Week 1: Union-Find section.
 * [LeetCode Binary Search Problems](https://leetcode.com/tag/binary-search/) 29, 33-35, 50, 69
 ![leetcode-binary-search-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-binary-search.png)
@@ -43,7 +43,7 @@ Mock interview resources:
   * Familiarize yourself with these basic sorts. Don't memorize them.
 * [Week 3: Mergesort and Quicksort - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * [Recommended Mergesort and Quicksort Algorithms - My Notes](https://github.com/jguamie/algorithms/blob/master/notes/sorts.md)
-  * Only memorize the mergesort algorithm. Many coding solutions are variations of mergsort.
+  * Only memorize the mergesort algorithm. Many solutions are variations of mergsort.
 ### Arrays
 * [LeetCode Array Problems](https://leetcode.com/tag/array/) 11, 15, 16, 18, 26, 27, 31
 ![leetcode-array-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-array.png)
