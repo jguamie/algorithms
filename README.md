@@ -74,9 +74,9 @@ Mock interview resources:
 ![leetcode-heap-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-heap.png)
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
-### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1/home/week/6)
+### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
 * Skip all of Week 5.
-* Study Week 6: Hash Tables section only.
+* Study [Week 6: Hash Tables](https://www.coursera.org/learn/algorithms-part1/home/week/6) section only.
 ### LeetCode - Easy
 Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Hard problems. Also, going through a high volume of Easy problems will increase your coding speed.
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
@@ -93,9 +93,9 @@ You should expect to get asked a couple graph questions at Google. Don't bother 
 ![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
 ### More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2/home/week/2)
-### Remainder of [Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+### Remainder of [Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
 * Skip all of Week 3.
-* Study Week 4: Tries section only.
+* Study [Week 4: Tries](https://www.coursera.org/learn/algorithms-part2/home/week/4) section only.
 * Skip all of Week 5 and Week 6.
 ### Dynamic Programming
 Unless you're interviewing for an entry-level L3 position, you should expect to get asked a couple dynamic programming questions at Google. These require a lot of practice to get down.
