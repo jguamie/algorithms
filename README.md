@@ -93,8 +93,12 @@ You should expect to get asked a couple graph questions at Google. Don't bother 
 ![leetcode-graph-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-graph.png)
 ### More Graphs
 * [Week 2: Minimum Spanning Trees and Shortest Paths - Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
+### Remainder of [Algorithms, Part II (Princeton University)](https://www.coursera.org/learn/algorithms-part2)
+* Skip all of Week 3.
+* Study Week 4: Tries section only.
+* Skip all of Week 5 and Week 6.
 ### Dynamic Programming
-Unless you're interviewing for an entry-level L3 position, you should expect to get asked a couple dynamic programming questions at Google. These are difficult and require a lot of practice to get down. 
+Unless you're interviewing for an entry-level L3 position, you should expect to get asked a couple dynamic programming questions at Google. These require a lot of practice to get down.
 * Get very comfortable with permutations, combinations, and backtracking. 
   * [Permutations Recursion](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
   * [Combinations Recursion with Backtracking](https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/)
@@ -104,10 +108,6 @@ Unless you're interviewing for an entry-level L3 position, you should expect to 
 * [LeetCode Dynamic Programming Problems](https://leetcode.com/tag/dynamic-programming/)
 ### More Dynamic Programming
 * [GeeksforGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
-### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
-* Skip all of Week 3.
-* Study Week 4: Tries section only.
-* Skip all of Week 5 and Week 6.
 ### LeetCode - Google Interview
 This section is absolutely required. Do not skip any of these problems.
 * Complete all of the [LeetCode Get Well Prepared for Google Interview Questions](https://leetcode.com/explore/featured/card/google/)
