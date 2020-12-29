@@ -35,7 +35,7 @@ Mock interview resources:
 * [Week 1: Analysis of Algorithms section - Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
   * Memorize order-of-growth classifications.
   * Memorize the binary search algorithm. Many coding solutions are variations of binary search.
-  * Skip over the Week 1: Union-Find section.
+  * Skip Week 1: Union-Find section.
 * [LeetCode Binary Search Problems](https://leetcode.com/tag/binary-search/) 29, 33-35, 50, 69
 ![leetcode-binary-search-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-binary-search.png)
 ### Sorting
@@ -75,8 +75,8 @@ Mock interview resources:
 * [LeetCode Google Problems](https://leetcode.com/problemset/top-google-questions/) 42, 200, 208
 ![leetcode-google-problems](https://github.com/jguamie/practice-problems/blob/master/images/leetcode-google-5.png)
 ### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
-* Skip all of Week 5
-* Study Week 6: Hash Tables section only
+* Skip all of Week 5.
+* Study Week 6: Hash Tables section only.
 ### LeetCode - Easy
 Many LeetCode Medium and Difficult problems are advanced versions of Easy problems. Practicing and understanding a large number of Easy problems builds a strong foundation to set you up for success with Medium/Hard problems. Also, going through a high volume of Easy problems will build your coding speed.
 * Complete all of the [LeetCode Easy Collection](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
@@ -105,9 +105,9 @@ Unless you're interviewing for an entry-level L3 position, you should expect to 
 ### More Dynamic Programming
 * [GeeksforGeeks - Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
 ### Remainder of [Algorithms, Part I (Princeton University)](https://www.coursera.org/learn/algorithms-part1)
-* Skip all of Week 3
-* Study Week 4: Tries section only
-* Skip all of Week 5 and Week 6
+* Skip all of Week 3.
+* Study Week 4: Tries section only.
+* Skip all of Week 5 and Week 6.
 ### LeetCode - Google Interview
 This section is absolutely required. Do not skip any of these problems.
 * Complete all of the [LeetCode Get Well Prepared for Google Interview Questions](https://leetcode.com/explore/featured/card/google/)
