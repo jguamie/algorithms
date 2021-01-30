@@ -3,14 +3,14 @@ Once it has been decided we are bringing you in for interviews, your interview p
 
 Is it worth putting in the time to prepare? I would say yes, you want to be placed into a level where your experience shines. Plus, it will give you more growth opportunities. Another benefit: I will neither confirm nor deny these [compensation numbers](https://www.teamblind.com/post/Google-Engineer---Total-Compensation-in-US---Ultimate-Post-jYcrij5X). However, I can say that the compensation difference between levels is high.
 ## Important Note for Industry Hires
-Your projects and work experience develop your skills in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to become proficient in data structures and algorithms. Coding interviews are a learned skill. It requires a lot of practice and studying outside of your job responsibilities.
+Your projects and work experience may develop your coding skills in various programming languages and object-oriented design. However, it will not be enough to be proficient in data structures and algorithms. Coding interviews are a learned skill. It requires a lot of practice and studying outside of your job responsibilities.
 ## Prerequisites
-These prerequisites are for Java interviewees only. Move onto the next section if you're prepping with a different programming language. If you have not decided on a language just yet, I strongly recommend Java as the most popular prep resources use Java.
+These prerequisites are for Java interviewees only. Move onto the next section if you're prepping with a different programming language. If you have not decided on a programming language yet, I strongly recommend Java. The most popular prep resources are written in Java.
 * [Java Classes](https://github.com/jguamie/algorithms/blob/master/notes/java-classes.md)
 * [Java Collections](https://github.com/jguamie/algorithms/blob/master/notes/java-collections.md)
 ## Practice
 ### Mock Interviews
-Practicing with mock interviews is mandatory. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through potential solutions and trade-offs before you start coding. After you're done coding, you need to walk us through test cases. You will not pass a difficult Google-level coding interview without interview practice and live feedback.
+Practicing with mock interviews is ***mandatory***. I cannot stress this enough. LeetCode is incredible but the actual coding portion of an interview should only be about 15 minutes of a 45-minute Google interview. You're spending a lot of time talking through potential solutions and trade-offs before you start coding. After you're done coding, you need to walk us through test cases. You will not pass a difficult Google-level coding interview without live interview practice and feedback.
 If you are an experienced software engineer and a top performer at your current employer:
 * At 20+ mock interviews, you have a very high chance of getting hired at L4+. At L5+, you are also required to succeed at [System Design interviews](https://github.com/jguamie/system-design).
 * At 10- mock interviews, you're relying on a lot of luck. Even if you pass, you will most likely get hired at L-1.
@@ -25,10 +25,10 @@ Mock interview resources:
 * Friends and colleagues
   * Find other engineers to practice with. Start an interview club with your friends. Meet weekly to go through videos and coding exercises together.
 * Mentor
-  * Find a mentor. Reach out to people you respect and ask them to meet with you regularly to build a mentoring relationship.
+  * Find a mentor. Reach out to other software engineers you respect. Ask them to meet with you regularly for mentoring sessions.
 ## Recommended Order of Study
 ### Big O
-* For every algorithm, understand the time and space complexity (Big O).
+* For every algorithm, understand its time and space complexity (Big O) characteristics.
 * [Chapter VI: Big O - Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
   * A lot of coding questions can be solved with various algorithms. Talking through the Big O of each is essential in trade-off discussions.
 ### Binary Search
