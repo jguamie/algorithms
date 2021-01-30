@@ -1,5 +1,7 @@
 # Preparing for the Google Coding Interview
 Once it has been decided we are bringing you in for interviews, your interview performance is much more critical than your educational/work background. Based on interviews, we regularly hire engineers with no college degree and only a couple years of experience at ***a higher level*** than engineers with many years of experience and a master's degree in Computer Science.
+
+Is it worth putting in the time to prepare? I would say yes, you want to be placed into a level where your experience shines and will give you more growth opportunities. Also, I will neither confirm nor deny these [compensation numbers](https://www.teamblind.com/post/Google-Engineer---Total-Compensation-in-US---Ultimate-Post-jYcrij5X). However, I can say that the compensation difference between levels is high.
 ## Important Note for Industry Hires
 Your projects and work experience develop your skills in a given programming language and object-oriented design. Although these fundamentals will help you in a coding interview, it will not be enough to become proficient in data structures and algorithms. Coding interviews are a learned skill. It requires a lot of practice and studying outside of your job responsibilities.
 ## Prerequisites
