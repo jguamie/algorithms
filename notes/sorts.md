@@ -12,7 +12,7 @@ void mergeSort(array, lo, hi)
       merge(array, lo, mid, hi)
 
 void merge(array, lo, mid, hi)
-   int i = lo, j = hi
+   int i = lo, j = mid + 1
    for (int k = lo; k <= hi; k++)
       temp[k] = array[k]
    for (int k = lo; k <= hi; k++)
@@ -41,8 +41,8 @@ int partition(array, lo, hi)
    int i = lo
    for (int j = lo; j < hi; j++)
       if (array[j] <= pivot)
-         swap(array[i], array[j])
+         swap(array, i, j)
          i++
-   swap(array[i], array[hi])
+   swap(array, i, hi)
    return i
 ```
